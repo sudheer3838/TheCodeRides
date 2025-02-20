@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    transition: background 0.3s ease;
+  }
+  
+  /* Light & Dark Mode */
+  .app.light {
+    background: linear-gradient(120deg, #f4f4f4, #dfe9f3);
+    color: #333;
+  }
+  
+  .app.dark {
+    background: linear-gradient(120deg, #121212, #1e1e1e);
+    color: #ffffff;
+  }
+  
+  /* Banner Gradient */
+  .banner {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  
+  .app.dark .banner {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+  }
+  
+  /* Dark Mode Toggle */
+  .dark-mode-btn {
+    margin-top: 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .dark-mode-btn:hover {
+    background: white;
+    color: black;
+  }
+  
+  /* Chat Box */
+  .chat-box {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+  }
+  
+  .app.dark .chat-box {
+    background: #1e1e1e;
+    border-color: #444;
+  }
+  
+  .chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .chat-message {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .chat-message.user {
+    background: #007bff;
+    color: white;
+    text-align: right;
+  }
+  
+  .chat-message.bot {
+    background: #eee;
+    color: black;
+    text-align: left;
+  }
+  
+  /* Chat Input */
+  .chat-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .chat-input button {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background: #0056b3;
+  }
+  
+  /* Scroll to Top */
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .scroll-top:hover {
+    background: #555;
+  }
+  

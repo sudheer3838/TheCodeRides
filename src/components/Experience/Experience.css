@@ -1,0 +1,82 @@
+.experience-container {
+	z-index: 0;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.experience-caption {
+	z-index: 1;
+	height: 300px;
+	position: absolute;
+	border-radius: 28px;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	bottom: auto;
+	left: auto;
+	right: auto;
+	top: auto;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	width: calc(100% - 100px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.experience-banner {
+
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.experience-caption .box {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 60px;
+}
+
+.box-icon {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.experience-caption .box:nth-child(2) {
+	width: 40%;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box--content h5 {
+	color: #000;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+	margin-bottom: 0;
+}
+
+.box--content h5 strong {
+	margin-top: 24px;
+	margin-bottom: 8px;
+	display: block;
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 32px;
+	/* 100% */
+}
+
+.box--content h5 strong+span {
+	display: block;
+	max-width: 90%;
+	text-align: center;
+}

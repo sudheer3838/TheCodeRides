@@ -1,0 +1,12 @@
+/* General Styles */
+.achievements-container {
+    margin: auto;
+    padding: 40px 20px 0;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+}

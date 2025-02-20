@@ -1,0 +1,486 @@
+/* Global Styles */
+.about {
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.about.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Header Section */
+.about .header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 0;
+
+
+}
+
+.about .header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.about .header h1 {
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.about .header .theme-toggle {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 12px;
+  z-index: 9999;
+  right: 12px;
+  padding: 12px 8px;
+  display: none;
+}
+
+/* Skills Section */
+.about .skills {
+  border-bottom: 2px solid #ccc;
+}
+.about .testimonials{
+  border-bottom: 2px solid #ccc;
+}
+.about .achievements-container .timeline{
+  border-bottom: 0 solid #ccc;
+}
+
+.about .progress-bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-top: 32px;
+  justify-self: center;
+}
+
+.about .progress-bar {
+  width: 0;
+  margin: 4px 0;
+  background-color: #007bff;
+  color: white;
+  line-height: 30px;
+  font-weight: bold;
+  transition: width 1s ease-in-out;
+  border-radius: 0 40px 40px 0;
+  height: 60px;
+  max-width: 300px;
+  position: relative;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.about .progress-bar span {
+  font-size: 16px;
+}
+
+/* Portfolio Section */
+.about .portfolio {
+  border-bottom: 2px solid #ccc;
+}
+
+.about .portfolio-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about .portfolio-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.about .portfolio-card {
+  width: 200px;
+  text-align: center;
+}
+
+.about .portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.about .portfolio-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.testimonial-carousel .testimonials {
+  border-bottom: 2px solid #ccc;
+}
+
+ .testimonial-carousel {
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-carousel .testimonial {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: calc(33.33333% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-carousel .testimonial {
+  color: #000;
+}
+
+.testimonial-carousel .testimonial span {
+  display: block;
+  font-weight: 600;
+  color: #000;
+  margin-top: auto;
+  text-align: right;
+}
+
+.testimonial-carousel .testimonial:hover {
+  transform: translateY(-10px);
+}
+
+/* Timeline Section */
+.about .timeline {
+  border-bottom: 2px solid #ccc;
+}
+
+.about .timeline-item {
+  padding: 20px;
+  text-align: left;
+  border-left: 4px solid #007bff;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Achievements Section */
+.about .achievements {
+  border-bottom: 2px solid #ccc;
+}
+
+.about .achievement-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 45%;
+  flex-direction: column;
+  padding: 32px 24px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.about .achievement-circle {
+  width: 140px;
+  position: relative;
+  height: 140px;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 0;
+  transition: width 1s, height 1s;
+}
+
+.about .achievement-circle:hover {
+  width: 150px;
+  height: 150px;
+}
+
+/* Video Section */
+.about .video-intro {
+  border-bottom: 2px solid #ccc;
+}
+
+.about .video-thumbnail {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.about .video-thumbnail img {
+  width: 300px;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+}
+
+.about .video-thumbnail:hover img {
+  opacity: 0.7;
+}
+
+.about .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Focus state */
+
+
+.about .experience-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 89vh;
+  aspect-ratio: 16/9;
+  z-index: -1;
+}
+
+.about .greeting {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #121212;
+  line-height: 14px;
+  padding: 12px 16px;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  left: auto;
+  right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .header .box {
+  position: relative;
+  background: #333333de;
+  padding: 44px 24px 66px 24px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+}
+
+.about .header .box .social-media-link{
+  margin: 0;
+}
+
+
+.about .profileImagebox {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -80px;
+  right: auto;
+  left: auto;
+}
+
+.about .profileImagebox img {
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 100%;
+}
+
+.about .rating {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #121212;
+  border-radius: 0 24px 24px 0;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  height: 100%;
+  font-size: 14px !important;
+}
+
+.about.dark .rating {
+  background: #fff;
+  color: #000;
+}
+
+.about .timeline-container {
+  margin-top: 32px;
+}
+
+.achievement-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0;
+  max-width: 1000px;
+  margin: auto;
+  /* background: #f8f9fa; */
+  padding: 36px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.carrier-points {
+  padding-bottom: 0;
+}
+
+.box-white {
+  width: 80%;
+  position: relative;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #007bff;
+  transition: width 1s, height 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  line-height: normal;
+  font-weight: 700;
+  padding: 16px 28px;
+}
+
+.about .achievement-circle:hover .box-white {
+  width: 95%;
+  height: 95%;
+}
+.achievement-circle + p{
+  margin: 16px 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+.fs-18 {
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.pl-5 {
+  padding-left: 2em;
+}
+
+
+
+
+
+
+
+.box .btn-primary {
+	background-color: #fff;
+	color: #121212;
+	border-color: #48A4F5;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 6px 32px;
+	border-radius: 12px;
+	display: inline-flex;
+	align-items: center;
+  text-decoration: none;
+	justify-content: center;
+	margin: 16px 0 32px;
+  height: 50px;
+}
+
+.box .btn-primary:hover {
+	color: #fff;
+	background-color: #265DF5;
+
+}
+.box .social-media-link ul {
+  margin: 0 0 0;
+}
+.box h1 {
+  line-height: normal !important;
+}
+.btn-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-wrap .btn-primary{
+  border-radius: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.btn-wrap  .downloadResume{
+  padding: 12px;
+  background: #005fcc;
+  color: #fff;
+}
+
+
+.video-thumbnail{
+  margin: auto;
+  text-align: center;
+  display: block !important;
+  border-radius: 12px;
+}
+.video-intro iframe{
+  margin-top: 44px;
+  margin-bottom: 32px;
+}

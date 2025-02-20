@@ -1,0 +1,27 @@
+#root {
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container-space {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.portfolio-grid{
+  margin-top: 24px;
+}
+
+
+.bg-light {
+  background: #fff !important;
+}
+
+.slick-dots li {
+  margin: 0 !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+}

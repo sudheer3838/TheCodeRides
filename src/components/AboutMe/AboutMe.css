@@ -1,0 +1,135 @@
+.about-me-container {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-me-container h3 {
+	font-weight: 600;
+	color: #000;
+	font-size: 32px;
+	margin: 0;
+}
+
+
+.about-me-container .about-text {
+	margin: 0px 0 24px;
+	font-weight: 400 !important;
+	color: #000;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+.about-me-container .bold {
+	margin: 16px 0 !important;
+	font-weight: 500 !important;
+	color: #000;
+	line-height: 24px;
+	font-size: 18px;
+}
+
+
+.about-me-media {
+	/* max-width: 40%; */
+	position: relative;
+	left: -54px;
+}
+
+.about-me-media img {
+	max-width: 100%;
+}
+
+.about-me-content {
+	width: calc(100% - 620px);
+	padding: 0 60px 0 0px;
+}
+
+.tech-tag-container {
+	display: flex;
+	margin-bottom: 16px;
+	flex-wrap: wrap;
+	position: relative;
+	max-width: 70%;
+}
+
+.tech-tag-container .tag {
+	position: relative;
+	z-index: 1;
+	margin-top: 8px;
+	margin-right: 8px;
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+	padding: 6px 8px;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.tech-tag-container .tag:last-child {
+	margin-right: 0;
+}
+
+
+.skills-heading {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	margin: 24px 0 0;
+}
+
+.hover-box {
+    display: none;
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: 2;
+    background-color: #121212;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15);
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 10px;
+	min-width: 220px;
+}
+.hover-wrap .tag{
+	cursor: pointer;
+}
+.hover-wrap .tag:hover+.hover-box,
+.hover-wrap .tag:focus+.hover-box {
+	display: block;
+}
+
+
+
+
+
+.about-me-content .btn-primary {
+	background-color: #fff;
+	color: #121212;
+	border-color: #48A4F5;
+	height: 60px;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 6px 45px;
+	min-width: 180px;
+	border-radius: 12px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 54px;
+}
+
+.about-me-content .btn-primary:hover {
+	color: #fff;
+	background-color: #265DF5;
+
+}

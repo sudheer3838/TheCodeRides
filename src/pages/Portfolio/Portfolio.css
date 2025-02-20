@@ -1,0 +1,111 @@
+/* Skip Navigation */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 8px;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Header */
+.portifolio-header {
+  text-align: center;
+  padding: 80px 24px;
+  background: #333;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+.portifolio-header .social-media-link{
+  position: absolute;
+    bottom: -48px;
+    margin: 0;
+    z-index: 1;
+}
+
+
+/* Portfolio Section */
+.portfolio-filter button {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.portfolio-filter button:hover {
+  background: #0056b3;
+}
+
+/* Scroll to Top */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-top:hover {
+  background: #555;
+}
+
+.download-resume {
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+}
+.call-me{
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;  
+}
+.portfolio-filter{
+  text-align: right;
+  margin-bottom: 32px;
+}
+.portfolio-filter button{
+  border-radius: 4px;
+  padding: 12px;
+  min-width: 80px;
+}
+.profile-background-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
