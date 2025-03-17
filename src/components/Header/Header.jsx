@@ -10,6 +10,9 @@ import Resume from '../../pages/Resume/Resume'
 import ProjectDetails from '../../pages/ProjectDetails/ProjectDetails'
 import PortfolioFilter from '../../pages/Portfolio/PortfolioFilter/PortfolioFilter'
 import HomeList from '../../components/Home'
+import Admin from '../../admin/Admin'
+import Dashboard from '../../admin/pages/Dashboard/Dashboard'
+import { AddProject } from '../../admin/pages/AddProjects/AddProject'
 function Header() {
 	return (
 		<Router>
@@ -28,6 +31,7 @@ function Header() {
 							<li className="nav-item"><NavLink className="nav-link" to="/about">About me</NavLink></li>
 							<li className="nav-item"><NavLink className="nav-link" to="/contact">Contact</NavLink></li>
 							<li className="nav-item"><NavLink className="nav-link" to="/portfolio">Portfolio</NavLink></li>
+							<li className="nav-item"><NavLink className="nav-link" to="/admin">Admin</NavLink></li>
 							{/* <li className="nav-item"><NavLink className="nav-link" to="/resume">Download Resume</NavLink></li> */}
 
 							{/* <li className="nav-item"><NavLink className="nav-link" to="/call">Call me Now</NavLink></li> */}
@@ -62,6 +66,10 @@ function Header() {
 				<Route path='/project-details' element={<ProjectDetails />} />
 				<Route path='/projects' element={<PortfolioFilter />} />
 				<Route path='/home' element={<HomeList />} />
+				<Route path='/admin' element={<Admin />} />
+				<Route path='/dashboard' element={<Dashboard />} />
+				<Route path='/addproject' element={ <AddProject/> } />
+
 			</Routes>
 		</Router>
 	)

@@ -1,21 +1,228 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-  font-family: "Lato", serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: "Lato", serif;
+	line-height: 1.5;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: top;
-  min-width: 320px;
-  min-height: 100vh;
-  font-family: "Lato", serif;
+	margin: 0;
+	display: flex;
+	place-items: top;
+	min-width: 320px;
+	min-height: 100vh;
+	font-family: "Lato", serif;
 }
 
+
+
+
+
+@media (max-width:991px) {
+	.carousel-banner {
+		height: 100%;
+		aspect-ratio: 16 / 10;
+	}
+
+	.carousel-caption h1 {
+		font-size: 36px;
+	}
+
+	.carousel-caption {
+		padding: 32px 24px;
+		max-width: 85%;
+		left: 0;
+		right: 0;
+	}
+
+	.bg-placement-bottom {
+		bottom: -165px;
+		max-width: 160px;
+	}
+
+	.about-me-media img {
+		display: none;
+	}
+
+	.about-me-content {
+		width: 100% !important;
+		padding: 0 60px !important;
+	}
+
+	.about-me-container {
+		flex-direction: column;
+	}
+
+	.img-top--right-overlap {
+		max-width: 150px;
+	}
+
+	.img-top--left {
+		top: 0;
+		left: 0;
+		max-height: 160px;
+	}
+
+	.img-bottom--right {
+		max-width: 120px;
+	}
+
+	.testimonial-carousel {
+		flex-wrap: nowrap !important;
+		overflow: auto;
+	}
+
+	.testimonial-carousel .testimonial {
+		min-width: 40%;
+	}
+
+	.container-space {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+
+	.testimonials-logos {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.testimonials-logos .logo-box {
+		width: 33%;
+	}
+
+	.projects-list-container {
+		padding: 45px 50px;
+	}
+
+	.contact-us-container {
+		padding: 45px 0px 45px;
+	}
+
+	.contact-us-wrap p {
+		max-width: 500px;
+		margin: auto;
+	}
+
+	.tech-tag-container {
+		max-width: 100%;
+	}
+
+	.about-me-container {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+}
+
+@media (max-width:767px) {
+
+	.bg-placement-bottom,
+	.img-top--right-overlap,
+	.img-top--left,
+	.img-bottom--right {
+		display: none;
+	}
+
+	.testimonial-carousel .testimonial {
+		min-width: 80%;
+	}
+
+	.contact-us-wrap {
+		padding: 0 15px;
+	}
+
+	.about-me-container {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.about-me-content {
+		padding: 0 15px !important;
+	}
+
+	.projects-list-container {
+		padding: 32px 15px;
+	}
+
+	.testimonials-container {
+		padding: 32px 15px;
+	}
+
+	.testimonials-logos {
+		width: 100%;
+	}
+
+	.testimonials-logos .logo-box {
+		width: 50%;
+		margin-top: 16px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.navbar-brand img {
+		max-height: 45px;
+	}
+
+	.navbar-toggler {
+		border-color: #3662cb;
+		padding: 9px;
+	}
+
+	.experience-caption {
+		border-radius: 18px;
+		height: 100%;
+		position: relative;
+		width: 100%;
+		flex-wrap: wrap;
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
+	.experience-banner {
+		display: none !important;
+	}
+
+	.experience-caption .box {
+		width: 100%;
+	}
+
+	.experience-caption .box:nth-child(2) {
+		width: 80%;
+	}
+
+	.bg-light {
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		width: 100%;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	}
+
+	.navbar-nav.ms-auto {
+		margin-top: 16px !important;
+	}
+
+	.carousel.carousel-dark {
+		margin-top: 71px;
+	}
+
+	.carousel-banner {
+		display: none !important;
+	}
+
+	.carousel-dark .carousel-caption {
+		position: relative;
+		max-width: 100%;
+		border-radius: 0;
+		min-height: 480px;
+	}
+	.carousel-caption h1 {
+		font-size: 20px;
+		font-weight: bold;
+		line-height: normal;
+}
+}
