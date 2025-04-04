@@ -13,6 +13,7 @@ import HomeList from '../../components/Home'
 import Admin from '../../admin/Admin'
 import Dashboard from '../../admin/pages/Dashboard/Dashboard'
 import { AddProject } from '../../admin/pages/AddProjects/AddProject'
+import NotFound from '../../utlities/NotFound/NotFound'
 function Header() {
 	return (
 		<Router>
@@ -69,7 +70,7 @@ function Header() {
 				<Route path='/admin' element={<Admin />} />
 				<Route path='/dashboard' element={<Dashboard />} />
 				<Route path='/addproject' element={ <AddProject/> } />
-
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</Router>
 	)

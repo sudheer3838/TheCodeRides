@@ -29,7 +29,7 @@ const aboutUsData = [
       { tech: 'JSON', techDec: 'Using JavaScript Object Notation (JSON) for storing and exchanging data between the client and server in web applications.', selfRating: 85 }
     ],
     secondarySkills: [
-      { tech: 'motion', techDec: 'Motion is built on native browser APIs for a tiny filesize and superfast performance. It uses hardware acceleration for smooth and eco-friendly animations.' },
+      { tech: 'Motion', techDec: 'Motion is built on native browser APIs for a tiny filesize and superfast performance. It uses hardware acceleration for smooth and eco-friendly animations.' },
       { tech: 'BEM', techDec: 'A methodology for creating maintainable and reusable CSS by organizing code into blocks, elements, and modifiers.' },
       { tech: 'Accessibility Testing', techDec: 'Ensuring digital content is usable by all users, including those with disabilities, by following accessibility standards.' },
       { tech: 'Content Management Systems (CMS)', techDec: 'Experience working with CMS platforms like WordPress, Joomla, or Sitecore for content-driven websites.' },

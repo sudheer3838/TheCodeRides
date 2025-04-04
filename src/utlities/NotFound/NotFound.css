@@ -1,0 +1,49 @@
+.not-found-container {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .animation-wrapper {
+    max-width: 400px;
+    margin: 0 auto 30px;
+  }
+  
+  .not-found-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+  }
+  
+  .not-found-message {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .home-button {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+  
+  .home-button:hover,
+  .home-button:focus {
+    background-color: #0056b3;
+    outline: none;
+  }
+  
+  .home-button:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 4px;
+  }
+  .not-found-container{
+    min-height: calc(100vh - 156px);
+  }

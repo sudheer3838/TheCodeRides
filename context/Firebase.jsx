@@ -11,16 +11,34 @@ import {
 import { getDatabase, set, ref } from 'firebase/database'
 import { useNavigate } from 'react-router-dom';
 import { getFirestore, collection, addDoc } from 'firebase/firestore'
+// const firebaseConfig = {
+// 	apiKey: "AIzaSyAjXvKgCIHB-aZkbqSSGysRfhTLqv2WTcc",
+// 	authDomain: "thecoderides-admin.firebaseapp.com",
+// 	projectId: "thecoderides-admin",
+// 	storageBucket: "thecoderides-admin.firebasestorage.app",
+// 	messagingSenderId: "105296362889",
+// 	appId: "1:105296362889:web:70004ea5bcac01f8607558",
+
+// 	databaseURL: "https://thecoderides-admin-default-rtdb.firebaseio.com",
+// 	measurementId: "G-80E5QYV9RE"
+// };
+
+console.log("API Key:", process.env.REACT_APP_FIREBASE_API_KEY);
+console.log("Auth Domain:", process.env.REACT_APP_FIREBASE_AUTH_DOMAIN);
+console.log("Project ID:", process.env.REACT_APP_FIREBASE_PROJECT_ID);
+
+
+
+
 const firebaseConfig = {
-	apiKey: "AIzaSyAjXvKgCIHB-aZkbqSSGysRfhTLqv2WTcc",
-	authDomain: "thecoderides-admin.firebaseapp.com",
-	projectId: "thecoderides-admin",
-	storageBucket: "thecoderides-admin.firebasestorage.app",
-	messagingSenderId: "105296362889",
-	appId: "1:105296362889:web:70004ea5bcac01f8607558",
+	apiKey: process.env.REACT_APP_FIREBASE_API_KEY || "AIzaSyAjXvKgCIHB-aZkbqSSGysRfhTLqv2WTcc",
+	authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+	projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+	storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+	messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+	appId: process.env.REACT_APP_FIREBASE_APP_ID,
 	databaseURL: "https://thecoderides-admin-default-rtdb.firebaseio.com",
 	measurementId: "G-80E5QYV9RE"
-
 };
 
 const FireBaseContext = createContext(null)

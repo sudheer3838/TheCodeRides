@@ -22,9 +22,10 @@ function Admin() {
 
   return (
     <>
+    
       {
         fireBase.isLogin ? <Dashboard /> :
-        <div className='admin-container onboarding--page'>
+        <div className='admin-container onboarding--page'>          
           <div className="row">
             <div className="col-md-3 col-lg-3 onboarding--banner">
               <img src="https://job-static.hirist.com/V8/static/media/login_bkg.993f4d3c.jpg" alt="" />

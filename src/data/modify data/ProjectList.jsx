@@ -4,8 +4,8 @@ const Projects = [
 		companyDescription: 'Optimays Inc. has developed A.I.-powered training courses to enable users to (a) train their speaking skills in a variety of situations, both personal and professional, and (b) improve the content of their speech as well as its delivery. The A.I. evaluates users verbal expressions such as pace, pitch, fillers, energy, volume, conciseness, etc as well as non-verbal expressions such as emotions, body posture, and hand gestures. Based on this evaluation, objective feedback and personalized recommendations are provided for further improvement',
 		companyLogo: 'https://res.cloudinary.com/dbhhheh7c/image/upload/v1661584924/landingpage-images/optilife-removebg-preview_c0tsl9.png',
 		companyUrl: 'https://optilife.ai/',
-		category: "uiux",
-		label: "UI/UX Design & UI Development",
+		category: "web",
+		label: "UI/UX Design & Development",
 		labelRole: "Contributed to UI/UX design, developed HTML, CSS, and JavaScript components, implemented SCSS, integrated GA5, and collaborated with the client to gather requirements for this AI-based interview training platform.",
 		technologyInDevelopmentTags: [
 			'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
@@ -41,11 +41,25 @@ const Projects = [
 		]
 	},
 	{
+		companyTitle: 'Edbacker',
+		companyDescription: 'Edbacker allows educators to fundraise all the money they need for important education related projects, programs, and events. The company offers online fundraising and reporting tools for campaigns, and contact management solutions. The company was founded in 2011 and is based in Fairfax, Virginia.',
+		companyLogo: 'https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1422165532/fjprxuzuzrb3vqauu7bm.png',
+		companyUrl: 'http://give.livingtree.com/',
+		category: "web",
+		label: "UI Development",
+		labelRole: "",
+		technologyInDevelopmentTags: [
+			'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',
+			'AdRoll CMP System'
+		]
+	},
+	{
 		companyTitle: 'StayAttache Corporate Housing',
 		companyDescription: 'Just bring your luggage and a laptop. All properties are fully-furnished and include all utilities, internet and cable.',
 		companyLogo: 'src/assets/images/partners-logo/logo_1.svg',
 		category: "web",
-		label: "UI/UX Design & UI Development",
+		label: "UI/UX Design & Development",
 		labelRole: "",
 		companyUrl: 'https://stayattache.com/',
 		technologyInDevelopmentTags: [
@@ -59,11 +73,11 @@ const Projects = [
 		companyDescription: 'A winter journey to remember Take the trusted route home with Americas most loved bus service',
 		companyLogo: 'https://ourbus.com/web_assets/charter/Logo.svg',
 		category: "uiux",
-		label: "UI/UX Design & UI Development",
+		label: "UI/UX Design & Development",
 		labelRole: "",
 		companyUrl: 'https://www.ourbus.com/',
 		technologyInDevelopmentTags: [
-			'.Net', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
 			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',
 			'AdRoll CMP System'
 		]
@@ -101,7 +115,7 @@ const Projects = [
 		companyDescription: 'TopFan is a membership platform designed to help you create a branded fan engagement experience, free from the restrictions of traditional social media. Unlike ...',
 		companyLogo: 'https://www.topfan.com/wordpress/wp-content/uploads/2015/08/final-TopFan-logo2.png',
 		category: "uiux",
-		label: "UI/UX Design & UI Development",
+		label: "UI/UX Design & Development",
 		labelRole: "",
 		companyUrl: 'https://www.topfan.com/',
 		technologyInDevelopmentTags: [
@@ -115,11 +129,11 @@ const Projects = [
 		companyDescription: 'Property Management Technology, We Do The Work For You!',
 		companyLogo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHITpA9olBoZQ/company-logo_200_200/company-logo_200_200/0/1633003105625/ventract_logo?e=1746057600&v=beta&t=POEIyJ-Z4zT3H-ujGEZUU3M24y_62Udg8SrAR2-hOgk',
 		category: "uiux",
-		label: "UI/UX Design & UI Development",
+		label: "UI/UX Design & Development",
 		labelRole: "",
 		companyUrl: 'https://www.ventract.com/',
 		technologyInDevelopmentTags: [
-			'Angular', 'FireBase', 'Teradata UI', 'Firebase', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'Angular', 'Teradata UI', 'Firebase', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
 			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',
 			'AdRoll CMP System'
 		]
@@ -139,35 +153,10 @@ const Projects = [
 		]
 	},
 	{
-		companyTitle: 'Edbacker',
-		companyDescription: 'Edbacker allows educators to fundraise all the money they need for important education related projects, programs, and events. The company offers online fundraising and reporting tools for campaigns, and contact management solutions. The company was founded in 2011 and is based in Fairfax, Virginia.',
-		companyLogo: 'https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1422165532/fjprxuzuzrb3vqauu7bm.png',
-		companyUrl: 'http://give.livingtree.com/',
-		category: "web",
-		label: "UI Development",
-		labelRole: "",
-		technologyInDevelopmentTags: [
-			'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
-			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',
-			'AdRoll CMP System'
-		]
-	},
-	{
-		companyTitle: 'The Code Rides',
-		companyDescription: 'The Code Rides is the professional portfolio of a seasoned UI/UX Designer and HTML UI Developer with over 12 years of experience in delivering accessible, responsive, and user-centric digital solutions. Specializing in modern web development, WCAG compliance, and front-end technologies, this platform showcases a comprehensive collection of real-world projects, case studies, and design strategies implemented across diverse industries. With a strong foundation in usability, performance, and clean code, The Code Rides represents a commitment to quality, innovation, and continuous growth in the evolving digital landscape.',
-		companyLogo: 'https://thecoderides.netlify.app/assets/logo-D-n6i1CR.png',
-		companyUrl: 'https://thecoderides.netlify.app',
-		category: "react",
-		label: "UI Development & React Development",
-		labelRole: "",
-		technologyInDevelopmentTags: [
-			'HTML', 'CSS', 'Bootstrap', 'reCAPTCHA','Lottie animation','Motion', 'Google Tag Manager', 'ReactStrap', 'FireBase', 'Json', 'Cloud','Google Analytics', 'Google Ads Conversion Tracking',
-		]
-	}, {
 		companyTitle: 'Canomiks',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/canomiks.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Figma to HTML conversion for a responsive web app & UI/UX design collaboration for Canomiks, ensuring WCAG 2.2 compliance with keyboard navigation, semantic HTML, ARIA roles, and accessible UI. Developed a user-friendly platform to assess supplement companies based on scientific validation and product efficacy.",
 		companyUrl: 'https://www.canomiks.com/',
@@ -179,7 +168,7 @@ const Projects = [
 		companyTitle: 'Evolved Human Care',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/evolvedhumancare.app',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Figma to HTML conversion for PWA & UI/UX design collaboration for Evolved Human Care (EHC) with WCAG 2.2 compliance. Focused on enhancing wellness, prevention, and secure health data management using blockchain technology",
 		companyUrl: 'https://evolvedhumancare.app/',
@@ -191,7 +180,7 @@ const Projects = [
 		companyTitle: 'Socialyfe',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/socialyfebiz.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Figma to HTML conversion & website design for SocialLyfe, an event discovery and planning platform. WCAG 2.1 compliant with accessible UI and navigation. Enabled seamless event exploration, social engagement, and behind-the-scenes access through an intuitive UI.",
 		companyUrl: 'https://www.socialyfebiz.com/',
@@ -203,7 +192,7 @@ const Projects = [
 		companyTitle: 'SAR - Saudi Arabia Railways',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/sar.com.sa',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Figma to HTML conversion for Saudi Arabia Railways (SAR). Developed a design system delivered as a micro-site for in-house use.",
 		companyUrl: 'https://www.sar.com.sa/',
@@ -215,7 +204,7 @@ const Projects = [
 		companyTitle: 'PblPlans',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/pblplans.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Figma to WordPress conversion for PBLplans, an AI-driven platform enabling teachers and institutes to integrate project-based learning and sustainability into education.",
 		companyUrl: 'https://pblplans.com/',
@@ -223,12 +212,12 @@ const Projects = [
 			"Figma", 'HTML5', 'CSS3', 'SCSS', "Wordpress"
 		]
 	},
-
+	
 	{
 		companyTitle: 'Loopster',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/loopster.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "PSD to HTML5 Conversion, and also played an important role in Designing the complete website and its Video Editor. It’s a Free Video Editing Software for business, education programs & personal use",
 		companyUrl: 'https://www.loopster.com/',
@@ -240,7 +229,7 @@ const Projects = [
 		companyTitle: 'Relish',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/relishcareers.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "PSD to HTML Conversion, and also played an important role in developing the complete responsive website. It’s a hiring platform customized for master's-level students and alumni and the companies that hire them.",
 		companyUrl: 'http://www.relishcareers.com',
@@ -252,7 +241,7 @@ const Projects = [
 		companyTitle: 'Heli',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/heli.life',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "PSD to HTML Conversion and also played an important role to design and development of fully responsive website. It’s a website for the booking of adventure sports.",
 		companyUrl: 'https://heli.life/',
@@ -264,7 +253,7 @@ const Projects = [
 		companyTitle: 'Event Box',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/myeventbox.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Zeplin to HTML Conversion and also played an important role to design and development of fully responsive website. EventBox is an online marketplace connecting planners and vendors to streamline any event. EventBox connects vetted vendors to various event planners through our online platform saving the planner time and effort when organizing and booking events.",
 		companyUrl: 'https://www.myeventbox.com/',
@@ -276,12 +265,12 @@ const Projects = [
 		companyTitle: 'Urban FT',
 		companyDescription: 'N/A',
 		companyLogo: 'https://logo.clearbit.com/urbanft.com',
-		category: "web",
+		category: "uiux",
 		label: "UI Development &  WCAG 2.0",
 		labelRole: "Zeplin to HTML Conversion and development of fully responsive websites. Urban FT is one of the Banking and Payment Industry’s leading and fastest-growing providers of AI-powered mobile imaging and process automation solutions",
 		companyUrl: 'https://www.urbanft.com/',
 		technologyInDevelopmentTags: [
-			'Material Design', 'Angular', "Zeplin", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
+			'Material Design', 'Angular',"Zeplin", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
 		]
 	},
 	// ---------------------------
@@ -365,13 +354,13 @@ const Projects = [
 	},
 	{
 		"companyTitle": "Dsider",
-		"companyLogo": "https://www.dsiderenp.app/static/media/dsider-logo.5c067397e58a4bccf19c684b629e2029.svg",
+		"companyLogo": "https://logo.clearbit.com/dsiderenp.app",
 		"label": "UI Development",
 		"companyUrl": "https://www.dsiderenp.app/login"
 	},
 	{
 		"companyTitle": "Harvard Club",
-		"companyLogo": "https://saudiharvardclub.com/_next/static/media/logo-white.8ae60d6f.svg",
+		"companyLogo": "https://logo.clearbit.com/saudiharvardclub.com",
 		"label": "UI Development",
 		"companyUrl": "https://saudiharvardclub.com/home"
 	},
@@ -419,7 +408,7 @@ const Projects = [
 	},
 	{
 		"companyTitle": "Plants Map",
-		"companyLogo": "https://plantsoon.com/images/website_2/logo.png",
+		"companyLogo": "https://logo.clearbit.com/plantsoon.com",
 		"label": "UI Development",
 		"companyUrl": "https://plantsoon.com/"
 	},
@@ -439,3 +428,12 @@ const Projects = [
 ];
 
 export default Projects;
+
+
+
+
+
+
+
+
+

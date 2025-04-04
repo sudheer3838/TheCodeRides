@@ -44,9 +44,17 @@
   color: white;
   cursor: pointer;
 }
-
+.portfolio-filter .dropdown-menu button{
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 12px 24px;
+}
 .portfolio-filter button:hover {
   background: #0056b3;
+  color: #fff;
 }
 
 /* Scroll to Top */

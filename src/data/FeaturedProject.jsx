@@ -16,7 +16,7 @@ const Projects = [
 	{
 		companyTitle: 'LeadWeb App',
 		companyDescription: 'LeadWeb app instantly delivers leads to your device and uses Artificial intelligence to set the appointment. Additionally we helping eliminate access issues to new patients as well using our platform.',
-		companyLogo: 'https://www.leadwebapp.ai/assets/images/login-brand-logo.svg',
+		companyLogo: 'https://leadwebapp.com/wp-content/uploads/2022/03/1024x1024-transparent-bg-60x60.png',
 		category: "web",
 		label: "UI Development",
 		labelRole: "Contributed to UI/UX design and front-end development using HTML, CSS, JS, and SCSS within an Angular and Ionic framework. Implemented Progressive Web App (PWA) features for enhanced performance and accessibility. Actively collaborated with the client and Team to gather requirements and ensure a seamless user experience in this Project.",

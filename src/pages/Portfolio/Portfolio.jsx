@@ -10,17 +10,17 @@ import PortfolioFilter from "./PortfolioFilter/PortfolioFilter";
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const [isScrollTopVisible, setIsScrollTopVisible] = useState(false);
+  // const [isScrollTopVisible, setIsScrollTopVisible] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setIsScrollTopVisible(window.scrollY > 200);
-    });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     setIsScrollTopVisible(window.scrollY > 200);
+  //   });
 
-    // Apply dark mode based on local storage preference
-    const savedDarkMode = localStorage.getItem("darkMode") === "true";
-    setDarkMode(savedDarkMode);
-  }, []);
+  //   // Apply dark mode based on local storage preference
+  //   const savedDarkMode = localStorage.getItem("darkMode") === "true";
+  //   setDarkMode(savedDarkMode);
+  // }, []);
 
   const toggleDarkMode = () => {
     const newMode = !darkMode;
@@ -43,12 +43,6 @@ const Portfolio = () => {
       {/* Portfolio Section */}
       <PortfolioFilter />
       {/* <ProjectsList /> */}
-      {/* Scroll to Top Button */}
-      {isScrollTopVisible && (
-        <motion.button className="scroll-top" onClick={() => window.scrollTo(0, 0)} whileHover={{ scale: 1.1 }}>
-          ⬆ Scroll to Top
-        </motion.button>
-      )}
     </div>
   );
 };
