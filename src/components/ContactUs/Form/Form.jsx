@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import ReCaptcha from '../../../utlities/ReCaptcha';
 
 function Form() {
 	const [formData, setFormData] = useState({
@@ -137,6 +138,7 @@ function Form() {
 					<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 				</div>
 			}
+			<ReCaptcha />
 		</form>
 	)
 }
