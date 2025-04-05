@@ -1,9 +1,9 @@
 .banner-section {
   background-color: #222;
   padding: 80px 24px 60px;
-  position: relative;display: flex
-  ;
-      align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .projectDetailView {
@@ -24,7 +24,11 @@
   border-width: 0;
   min-width: 100%;
   margin: 0;
-  display: block;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid #fff;
 }
 
 .projectDetailView .img-thumbnail img {
@@ -34,7 +38,7 @@
 }
 
 .backBtn {
-  
+
   height: 40px;
   display: flex;
   align-items: center;
@@ -55,4 +59,8 @@
   border: 3px solid #ccc;
   padding: 16px;
   border-radius: 4px;
+}
+.badge-category{
+  background-color: #F9FBE7 !important;
+  color: #888;
 }

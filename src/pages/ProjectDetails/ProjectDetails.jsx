@@ -38,7 +38,8 @@ function ProjectDetails() {
         <div className="row">
           <div className="col-md-5">
             <div className="box">
-              <div className="img-thumbnail mb-3">
+              <p className="inline-flex badge bg-warning mb-3 py-3 px-3 fs-16 badge-category">{project.categoryLabel}</p>
+              <div className="img-thumbnail mb-3 mt-2">              
                 <a href={project.companyUrl} target="_blank" rel="noopener noreferrer">
                   <img
                     src={project.companyLogo}
@@ -47,8 +48,8 @@ function ProjectDetails() {
                     style={{ maxWidth: "100%", height: "auto" }}
                   />
                 </a>
-              </div>
-              <span className="d-inline badge bg-success ">{project.label}</span>
+              </div>              
+              <span className="d-inline badge bg-success ">{project.label}</span>              
               <h2 id="company-title" className="card-title mt-3 h5 text-white fw-bold">
                 {project.companyTitle}
               </h2>              

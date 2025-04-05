@@ -6,7 +6,6 @@ import ProjectsList from '../../components/ProjectsList/ProjectsList'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import ContactUs from '../../components/ContactUs/ContactUs'
 import ClientTestimonials from '../../pages/About/Testimonials/Testimonials'
-
 function Home() {
   return (
     <>
