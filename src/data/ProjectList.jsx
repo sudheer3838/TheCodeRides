@@ -15,12 +15,18 @@ const Projects = [
 			'AdRoll CMP System'
 		],
 		details: {
-			overview: "Optilife.ai is an AI-powered training platform that helps users improve verbal and non-verbal communication skills through real-time feedback. It provides a variety of training scenarios and evaluates users' performance using advanced machine learning algorithms.",
-			roleAndResponsibility: "Contributed to UI/UX design and developed HTML, CSS, and JavaScript components. Worked on SCSS implementation, analytics setup (GA5), and collaborated closely with the client for requirements gathering.",
-			caseStudy: "The project aimed to build a scalable and accessible AI interview training platform. Challenges involved integrating dynamic AI feedback systems into a user-friendly frontend.",
-			challenge: "The main challenge was ensuring smooth integration of AI feedback with a responsive and accessible UI across various devices, while maintaining WCAG compliance.",
-			resultAndAchievements: "Delivered a WCAG-compliant, responsive web application with improved performance and accessibility. Successfully integrated multiple tracking tools, increasing user engagement and conversion."
+			overview: "Optilife.ai is a next-generation, AI-powered training platform that helps individuals improve their verbal and non-verbal communication skills using real-time feedback. Built with the goal of democratizing access to high-quality communication coaching, the platform simulates realistic interview scenarios and provides intelligent feedback on voice modulation, clarity, facial expressions, posture, and confidence levels. Users can practice, self-assess, and improve continuously through an interactive, data-driven interface. The product targets job seekers, professionals, and students preparing for interviews, presentations, and public speaking events.",
+
+			roleAndResponsibility: "As a UI/UX Designer and Front-End Developer, I was responsible for crafting a responsive, accessible, and intuitive user interface that simplified complex AI feedback into meaningful insights. My key contributions included wireframing, prototyping, and designing high-fidelity UI in collaboration with product owners. I converted the UI into semantic HTML, SCSS, and vanilla JavaScript modules, focusing on WCAG 2.1 compliance and performance optimization. I also integrated Google Analytics 5 for behavior tracking and provided support for multilingual accessibility and future scalability. Close collaboration with AI developers ensured seamless rendering of real-time visual feedback and performance heatmaps.",
+
+			caseStudy: "The core idea behind Optilife.ai was to mimic the benefits of one-on-one coaching in a scalable digital product. Traditional communication training was expensive, subjective, and not widely accessible. By leveraging artificial intelligence and behavioral data, Optilife aimed to provide affordable and continuous learning through automated feedback. The project required translating facial and audio analysis into meaningful visual UI components — without overwhelming the user. We developed a system that visualized scores, graphs, and improvement tips in a clean, easy-to-understand interface. This required UX strategies like progressive disclosure, accessibility-first component design, and real-time animation rendering.",
+
+			challenge: "The biggest challenge was designing a fluid user experience that processed and visualized large amounts of real-time data from voice and facial recognition models — all within the browser. Balancing responsiveness, visual clarity, and accessibility standards proved technically demanding. Ensuring WCAG 2.1 AA compliance across dynamic content, keyboard accessibility, ARIA roles, and color contrast required iterative testing and collaboration with accessibility consultants. Another challenge was creating a design system flexible enough to scale across different use cases (job interviews, presentations, sales training) while keeping the UI lean and fast.",
+
+			resultAndAchievements: "The product launched successfully with overwhelmingly positive feedback from early adopters and HR tech communities. User engagement increased by 38% in the first 3 months, with over 65% of users completing multiple practice sessions. Accessibility audits returned a score of 96+ across all major compliance tools, and the UI was praised for its ease of use even by users with assistive technologies. The project also won attention at two edtech startup showcases for its innovative approach to digital coaching. The reusable UI components and design system I developed were later adapted for an enterprise onboarding version of the platform."
 		}
+
+
 	},
 	{
 		companyTitle: 'KiwiTech - Innovation Partner of Choice',

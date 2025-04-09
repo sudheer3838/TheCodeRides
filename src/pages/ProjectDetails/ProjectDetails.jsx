@@ -8,8 +8,8 @@ function ProjectDetails() {
   const location = useLocation();
   const { project } = location.state || {};
   const navigate = useNavigate(); // Hook for navigation
-  const websiteURL = project.companyUrl;
-  const apiKey = '70cd36'; // 🔁 Replace this with your actual ScreenshotMachine API key
+  const websiteURL = project?.companyUrl ?? 'URL not Fount!';
+  const apiKey = '70cd36'; //
   const thumbnail = `https://api.screenshotmachine.com?key=${apiKey}&url=${encodeURIComponent(
     websiteURL
   )}&dimension=800x600`;
@@ -26,8 +26,8 @@ function ProjectDetails() {
   return (
     <>
       <section className='banner-section' role="region" aria-labelledby="company-title">
-      <svg class="yellow-border" preserveAspectRatio="none" viewBox="0 0 100 100" role="none">
-            <polygon points="100,100 100,0 0,100" opacity="0.85" fill="#2d59cf"></polygon>
+        <svg className="yellow-border" preserveAspectRatio="none" viewBox="0 0 100 100" role="none">
+          <polygon points="100,100 100,0 0,100" opacity="0.85" fill="#2d59cf"></polygon>
         </svg>
         <button
           className="backBtn btn btn-outline-secondary"
@@ -37,7 +37,7 @@ function ProjectDetails() {
           ← Back to project
         </button>
         <div className="projectDetailView">
-          <iframe className='live-project-iframe' src={project.companyUrl}></iframe>
+          <iframe className='live-project-iframe' src={project?.companyUrl ?? 'URL not found!'}></iframe>
           {/* <img
             src={thumbnail}
             alt="Website Screenshot"
@@ -50,14 +50,14 @@ function ProjectDetails() {
           /> */}
           <div className="box">
             <div className="d-flex">
-              <p className="inline-flex badge bg-warning mb-3 py-2 px-3 fs-14 badge-category">{project.categoryLabel}</p>
-              <p className="inline-flex badge bg-success mb-3 py-2 px-3 fs-14 mx-2">{project.label}</p>
+              <p className="inline-flex badge bg-warning mb-3 py-2 px-3 fs-14 badge-category">{project?.categoryLabel ?? 'N/A'}</p>
+              <p className="inline-flex badge bg-success mb-3 py-2 px-3 fs-14 mx-2"> {project?.label ?? 'N/A'}</p>
             </div>
             <div className="img-thumbnail mb-3 mt-2">
-              <a href={project.companyUrl} target="_blank" rel="noopener noreferrer">
+              <a href={project?.companyUrl ?? 'URL not found!'} target="_blank" rel="noopener noreferrer">
                 <img
-                  src={project.companyLogo}
-                  alt={`${project.companyTitle} Logo`}
+                  src={project?.companyLogo}
+                  alt={`${project?.companyTitle} Logo`}
                   className=""
                   style={{ maxWidth: "100%", height: "auto" }}
                 />
@@ -65,16 +65,16 @@ function ProjectDetails() {
             </div>
 
             <h2 id="company-title" className="card-title mt-3 h5 text-white fw-bold">
-              {project.companyTitle}
+              {project?.companyTitle}
             </h2>
             {/* Company Description */}
-            <p className="card-text mt-1  text-white">{project.companyDescription}</p>
+            <p className="card-text mt-1  text-white">{project?.companyDescription}</p>
             <a
-              href={project.companyUrl}
+              href={project?.companyUrl ?? 'URL Not Found!'}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-3"
-              aria-label={`Visit ${project.companyTitle} website`}
+              aria-label={`Visit ${project?.companyTitle} website`}
             >
               Visit Website
             </a>
@@ -83,7 +83,7 @@ function ProjectDetails() {
       </section>
       <section className='tab'>
         <div className="container">
-          <Tabs />
+          <Tabs ProjectDetails={project} />
         </div>
       </section>
     </>
