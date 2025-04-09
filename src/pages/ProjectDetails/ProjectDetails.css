@@ -1,22 +1,11 @@
 .banner-section {
   background-color: #222;
-  padding: 80px 24px 60px;
+  /* padding: 80px 24px 60px; */
   position: relative;
   display: flex;
   align-items: center;
+  position: relative;
 }
-
-.projectDetailView {
-  /* max-width: 720px; */
-  width: 100%;
-  /* margin: 32px auto 44px; */
-}
-
-.projectDetailView .box {
-  background-color: #ffffff07;
-  padding: 44px 24px;
-}
-
 .projectDetailView .img-thumbnail {
   width: 100%;
   height: 100%;
@@ -24,21 +13,25 @@
   border-width: 0;
   min-width: 100%;
   margin: 0;
-  display: inline-flex !important;
+  display: inline-flex !important
+;
   align-items: center;
   justify-content: center;
   padding: 2rem;
   border: 2px solid #fff;
+  max-width: 200px;
+  min-width: 200px;
 }
 
 .projectDetailView .img-thumbnail img {
-  object-fit: contain;
-  aspect-ratio: 16 / 4;
+  aspect-ratio: 0 / 0;
   max-width: 200px !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .backBtn {
-
+  z-index: 2;
   height: 40px;
   display: flex;
   align-items: center;
@@ -60,7 +53,66 @@
   padding: 16px;
   border-radius: 4px;
 }
-.badge-category{
+
+.badge-category {
   background-color: #F9FBE7 !important;
   color: #888;
+}
+
+
+
+.live-project-iframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+  pointer-events: none;
+  position: relative;
+  z-index: 0;
+  margin-right: -44px;
+}
+
+.projectDetailView {
+  z-index: 1;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.projectDetailView .box {
+  background-color: #2d59cf;
+  padding: 32px 44px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 740px;
+  margin: auto;
+  bottom: 32px;
+  border-radius: 6px;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: 16/9;
+}
+.projectDetailView .box .btn{
+  margin-bottom: 0 !important;
+}
+.projectDetailView  .card-text{
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.banner-section .yellow-border{
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  width: 100%;
+  height: 10%;
 }

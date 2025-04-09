@@ -54,7 +54,7 @@ const About = () => {
             {greeting}
           </motion.div>
           <motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }} transition={{ duration: 2.5 }}>
-            <h1 id="hero-heading">I'm Sudheer Dixit, <br />a UI/UX Developer & Designer</h1>
+            <h1 id="hero-heading">I'm Sudheer Dixit, <br />A Frontend Developer & UI/UX Designer</h1>
             <p className='mb-0'>A Front-End Developer & UI/UX Designer crafting immersive digital experiences.</p>
             <p>Specializing in beautiful and accessible web experiences.</p>
             <div className="btn-wrap">
