@@ -1,0 +1,85 @@
+/* Accessibility: visually hidden heading */
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Section */
+.profile-highlights {
+  padding: 3rem 1rem;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+}
+
+/* Grid Layout */
+.highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .highlight-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Styles */
+.highlight-box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.highlight-box:hover,
+.highlight-box:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon */
+.highlight-box .icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  color: #1b72e4;
+}
+
+/* Heading */
+.highlight-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* Expandable Content */
+.highlight-box .content {
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.highlight-box .content ul {
+  padding-left: 1rem;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.highlight-box .content li {
+  margin-bottom: 0.4rem;
+  text-indent: -15px;
+}
