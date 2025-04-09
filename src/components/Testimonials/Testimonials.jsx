@@ -5,27 +5,27 @@ import defaultImage from '../../assets/images/defaultImage.svg'
 import './Testimonials.css'
 import { Link } from 'react-router-dom'
 
-import TestimonialsData from '../../data/Testimonials'
+// import TestimonialsData from '../../data/Testimonials'
 import TestimonialsLogo from '../../data/ProjectList'
 
 function Testimonials() {
-  const categoryText = {
-    web: "Web Application",
-    react: "React Development",
-    uiux: "UI/UX Design",
-  };
+  // const categoryText = {
+  //   web: "Web Application",
+  //   react: "React Development",
+  //   uiux: "UI/UX Design",
+  // };
 
   const [isHovered, setIsHovered] = useState(false);
-  const [testimonials, setTestimonials] = useState([]);
+  // const [testimonials, setTestimonials] = useState([]);
   useEffect(() => {
-    loadData()
+    // loadData()
   }, [])
 
   const handleImage = (e) => {
     e.target.src = defaultImage
   }
   const loadData = async () => {
-    setTestimonials(TestimonialsData)
+    // setTestimonials(TestimonialsData)
   }
   return (
     <div className='testimonials-container'>
@@ -34,7 +34,7 @@ function Testimonials() {
       <div className="testimonials-mx">
         <div className="testimonials-logos">
           {
-            TestimonialsLogo.slice(0, 12).map((logo, indexKey) => (
+            TestimonialsLogo.slice(0, 16).map((logo, indexKey) => (
               <div className="logo-box loop-div" key={indexKey + 1}>
                 <Link
                   to="#"
@@ -60,7 +60,7 @@ function Testimonials() {
                     role="tooltip"
                   >
 										<p className='category'>Role: {logo.label}</p>
-                    {/* <p className='category'>{categoryText[logo.category] || "Other"}</p> */}
+                    <p className='category industry'>Industry: {logo?.categoryLabel ?? 'Other'}</p>
                     {/* <p className='category-role'>{logo.label}</p> */}
                   </div>
                 </Link>
