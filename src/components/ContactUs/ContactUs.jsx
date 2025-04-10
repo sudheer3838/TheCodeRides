@@ -9,6 +9,7 @@ import Form from './Form/Form'
 function ContactUs() {
 
   return (
+    <section aria-label="Contact Section">
     <div className='contact-us-container'>
       <img src={imagery_2} alt="Imagery" className='img-bottom--right' />
       <img src={imagery_3} alt="Imagery" className='img-top--right-overlap' />
@@ -20,7 +21,7 @@ function ContactUs() {
         <SocialMedia />
         <Form />
       </div>
-    </div>
+    </div></section>
   )
 }
 

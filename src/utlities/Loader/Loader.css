@@ -1,0 +1,75 @@
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a0a0ae8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .loader-content {
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .loader-logo {
+    font-size: 3rem;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .loader-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+    animation: slideIn 1s ease;
+  }
+  
+  .loader-subtext {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
+  .loader-spinner {
+    margin: 30px auto 0;
+    border: 4px solid #fff;
+    border-top: 4px solid #265DF1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Animations */
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0 }
+    to { transform: translateY(0); opacity: 1 }
+  }
+  

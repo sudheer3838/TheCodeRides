@@ -30,6 +30,7 @@ function AboutMe() {
 
 
   return (
+    <section aria-label="About Me">
     <div className='about-me-container'>
       <div className="about-me-media">
         <img src={aboutMeImage} alt="" />
@@ -163,7 +164,7 @@ function AboutMe() {
         </Link>
       </div>
       
-    </div>
+    </div></section>
 
   )
 }

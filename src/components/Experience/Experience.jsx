@@ -60,6 +60,7 @@ function Experience() {
   }, [isVisible, counts]);
 
   return (
+    <section aria-label="Work Experience">
     <div className="experience-container" ref={sectionRef}>
       <img
         src={experienceBg}
@@ -83,7 +84,7 @@ function Experience() {
           </div>
         ))}
       </div>
-    </div>
+    </div></section>
   );
 }
 

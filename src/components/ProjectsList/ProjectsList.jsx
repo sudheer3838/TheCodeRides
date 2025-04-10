@@ -14,6 +14,7 @@ function ProjectsList() {
   // console.log(data);
 
   return (
+    <section aria-label="Project Portfolio">
     <div className='projects-list-container'>
       <h3>From Concept to Completion</h3>
       <p>Witness the journey of each project, where thoughtful planning, creative exploration, and meticulous execution come together to deliver innovative and impactful solutions that meet real-world needs.</p>
@@ -60,7 +61,7 @@ function ProjectsList() {
           </div>
         </div>
       </div>
-    </div>
+    </div></section>
   )
 }
 

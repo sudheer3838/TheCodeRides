@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Slider() {
 	return (
+		<section aria-label="Hero Section">
 		<div>
 			<div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
 				<div className="carousel-indicators d-none">
@@ -36,7 +37,7 @@ function Slider() {
 					<span className="visually-hidden">Next</span>
 				</button>
 			</div>
-		</div>
+		</div></section>
 	)
 }
 

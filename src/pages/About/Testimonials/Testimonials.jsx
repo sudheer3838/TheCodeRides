@@ -2,7 +2,7 @@ import React from 'react'
 
 function Testimonials() {
   return (
-    <section className="container container-space  testimonials" id="testimonials-section" aria-labelledby="testimonials-heading">
+    <section className="container container-space  testimonials" aria-label="Client Testimonials" id="testimonials-section" aria-labelledby="testimonials-heading">
             <h2 id="testimonials-heading">Testimonials</h2>
             <div className="testimonial-carousel" role="region" aria-live="polite">
                 <div className="testimonial" aria-labelledby="testimonial1">

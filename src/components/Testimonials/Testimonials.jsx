@@ -28,6 +28,7 @@ function Testimonials() {
     // setTestimonials(TestimonialsData)
   }
   return (
+    <section aria-label="Testimonials">
     <div className='testimonials-container'>
       <h3>A Journey of Accomplishments</h3>
       <p>Every project tells a story of success, innovation, and dedication. From ambitious concepts to tangible outcomes, each achievement reflects our unwavering commitment to quality and excellence.</p>
@@ -74,7 +75,7 @@ function Testimonials() {
         <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">VIEW MORE</button>
       </div>
       <img className='bg-placement-bottom' src={imageryBG_5} alt="Imager Background" />
-    </div>
+    </div></section>
   )
 }
 
