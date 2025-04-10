@@ -4,6 +4,13 @@ import "../Tabs/Tab.css";
 import { Link } from "react-router-dom";
 
 const Tabs = ({ ProjectDetails }) => {
+
+  const websiteURL = ProjectDetails?.companyUrl ?? 'URL not Fount!';
+  const apiKey = '70cd36'; //
+  const thumbnail = `https://api.screenshotmachine.com?key=${apiKey}&url=${encodeURIComponent(websiteURL)}&dimension=800x600`;
+  const handleImageError = () => {
+    console.error("Image failed to load.");
+  };
   const [data, setData] = useState([null])
   useEffect(() => {
     loadData()
@@ -23,6 +30,8 @@ const Tabs = ({ ProjectDetails }) => {
     e.preventDefault();
     tabRefs[tabKey]?.current?.scrollIntoView({ behavior: "smooth" });
   };
+
+
 
 
   return (
@@ -49,7 +58,23 @@ const Tabs = ({ ProjectDetails }) => {
       <div className="tab-content">
         <div style={{ minHeight: "160px" }} ref={tabRefs.overview} id="overview" className="tab-pane fade-in">
           <h3>Overview</h3>
-          <p>{data?.overview ?? 'Coming Soon!'}</p>
+          <div className="row">
+            <div className="col-md-6">
+              <p>{data?.overview ?? 'Coming Soon!'}</p>
+            </div>
+            <div className="col-md-6">
+              <img
+                src={thumbnail}
+                alt="Website Screenshot"
+                onError={handleImageError}
+                style={{
+                  width: "100%",
+                  border: "1px solid #ccc",
+                  borderRadius: "8px",
+                }}
+              />
+            </div>
+          </div>
         </div>
 
         <div style={{ minHeight: "160px" }} ref={tabRefs.role} id="role" className="tab-pane fade-in">
@@ -71,19 +96,19 @@ const Tabs = ({ ProjectDetails }) => {
           <h3>Result & Achievement</h3>
           <p>{data?.resultAndAchievements ?? 'Coming Soon!'}</p>
         </div>
+        {ProjectDetails.technologyInDevelopmentTags && (
+          <div className="tech-tags" aria-label="Technology used">
+            <hr />
+            <h3 className="px-1 py-2">Technology Stack Used:</h3>
+            <hr />
 
-        <div className="tech-tags" aria-label="Technology used">
-        <hr />
-          <h3 className="px-1 py-2">Technology Stack Used:</h3>
-          <hr />
-          <ul role="list" className="tag-wrap">
-            <li><span className="tag">React.js</span></li>
-            <li><span className="tag">Firebase</span></li>
-            <li><span className="tag">WCAG 2.1</span></li>
-            <li><span className="tag">SCSS</span></li>
-            <li><span className="tag">Custom APIs</span></li>
-          </ul>
-        </div>
+            <ul role="list" className="tag-wrap">
+              {ProjectDetails.technologyInDevelopmentTags.map(tag => (
+                <li key={tag}><span className="tag">{tag}</span></li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );

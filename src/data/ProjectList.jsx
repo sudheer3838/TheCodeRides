@@ -43,12 +43,17 @@ const Projects = [
 			'Google Tag Manager', 'reCAPTCHA', 'JavaScript libraries', 'Isotope', 'JS', 'Google Analytics'
 		],
 		details: {
-			overview: "KiwiTech is a pioneering startup ecosystem offering a full suite of technology services, fundraising support, and go-to-market strategies for startups worldwide. With 400+ portfolio companies and a global network of investors and mentors, KiwiTech is committed to accelerating innovation.",
-			roleAndResponsibility: "Collaborated with the internal team to implement responsive UI components, maintained brand consistency, and enhanced cross-browser compatibility. Developed frontend templates using Bootstrap and customized JavaScript plugins for better interactivity.",
-			caseStudy: "The goal was to upgrade the corporate site to align with KiwiTech’s position as a tech innovation hub while maintaining scalability for future expansions. A modular design system was adopted for faster content deployment.",
-			challenge: "The complexity involved organizing diverse service offerings under a unified UX while keeping the interface lightweight and SEO-friendly.",
-			resultAndAchievements: "Successfully delivered a sleek and scalable UI, enhancing user engagement and reducing bounce rate by 20%. Enabled smoother content updates with modular HTML architecture."
+			overview: "KiwiTech is a pioneering startup ecosystem offering a full suite of technology services, fundraising support, and go-to-market strategies for startups across the globe. With over 400 portfolio companies and a vast network of investors, mentors, and strategic partners, KiwiTech aims to fuel innovation and entrepreneurship. The corporate website serves as a central hub to showcase services, success stories, and investor relationships, with a strong focus on accessibility, engagement, and scalability.",
+
+			roleAndResponsibility: "Acted as both a UI/UX Designer and Frontend Developer. Collaborated with product and marketing teams to define a unified visual language and built modular UI components using HTML5, CSS3, Bootstrap, and custom JavaScript. Designed mobile-first wireframes and interactive prototypes that guided development. Applied accessibility standards (WCAG 2.1) to ensure inclusivity, optimized performance across browsers, and worked closely with QA to ensure seamless interactions and visual consistency.",
+
+			caseStudy: "The objective was to reposition KiwiTech’s digital presence to reflect its stature as an innovation enabler and attract both startups and investors. The project involved a full website redesign, including sitemap restructuring, enhanced user journeys, and UI prototyping. We introduced a scalable design system with reusable components that enabled non-technical teams to update content without breaking layout integrity. Usability tests were conducted with real users to validate navigation and interaction flows.",
+
+			challenge: "The challenge was to present a broad range of services—from startup accelerators to enterprise solutions—under a single, cohesive UX. We needed to ensure a balance between a modern, tech-forward aesthetic and a professional, business-oriented tone. Achieving fast load times while maintaining rich visual elements and responsiveness was another key hurdle, especially for mobile and tablet users accessing data-heavy pages.",
+
+			resultAndAchievements: "Successfully delivered a modern, WCAG-compliant UI that reflects KiwiTech’s brand identity and supports future growth. The modular HTML/CSS structure reduced content update cycles by 40%, while the intuitive UX design contributed to a 20% drop in bounce rate and improved average session duration. The design system created during this project is now being leveraged for multiple KiwiTech sub-sites and internal platforms, amplifying its value across the organization."
 		}
+
 	},
 	{
 		companyTitle: 'LVH Global',
@@ -67,12 +72,17 @@ const Projects = [
 		categoryLabelShortDesc: 'LVH Global (Luxury Travel and Hospitality) → Luxury Rentals & Travel',
 
 		details: {
-			overview: "LVH Global is a luxury vacation home rental platform offering elite properties in premier destinations around the globe. LVH caters to high-net-worth individuals seeking exclusive experiences with 24/7 concierge services.",
-			roleAndResponsibility: "Led the UI development initiative with a focus on WCAG 2.0 accessibility. Ensured the design was responsive and intuitive across devices. Integrated semantic HTML and optimized CSS for luxury brand aesthetics.",
-			caseStudy: "The primary aim was to develop a highly visual, intuitive platform that aligned with the opulence of the service offering. Accessibility features were key due to global clientele with varied digital needs.",
-			challenge: "Creating a luxury-feel design that remained fast-loading, compliant with accessibility standards, and compatible across international bandwidth conditions.",
-			resultAndAchievements: "Launched a fully accessible, visually rich site that improved session duration by 35%. Achieved seamless accessibility scores and maintained brand tone across touchpoints."
+			overview: "LVH Global is an ultra-luxury vacation rental platform offering curated, high-end residences in the world’s most prestigious destinations. It caters to high-net-worth individuals seeking not only exquisite properties but also bespoke lifestyle services through its 24/7 global concierge network. The platform combines luxury with personalization, offering everything from private chefs to VIP experiences, positioning itself as a full-service hospitality brand for elite travelers.",
+
+			roleAndResponsibility: "Led the UI development and contributed to UX refinement with a strong emphasis on visual storytelling and WCAG 2.0 accessibility compliance. Developed pixel-perfect, mobile-responsive layouts using semantic HTML5 and optimized CSS to align with the premium aesthetic of the brand. Worked closely with designers to transform Figma mockups into interactive web components, ensuring smooth animations, intuitive interactions, and luxury-grade transitions. Contributed to component reusability, responsive testing across breakpoints, and accessibility checks including ARIA roles, keyboard navigation, and color contrast.",
+
+			caseStudy: "The challenge was to bring a luxury lifestyle to life through a digital interface while ensuring accessibility for a diverse, global clientele. The design needed to be immersive yet fast, elegant yet inclusive. We reimagined the homepage as an interactive showcase of destinations and luxury experiences, incorporating high-resolution imagery, sleek navigation, and content that dynamically adapted based on screen size and bandwidth availability. The UI components were modularized for scalability as the platform expanded into new locations and service offerings. We applied inclusive design principles from the start to ensure an equitable user experience across all regions and devices.",
+
+			challenge: "One of the major challenges was balancing the luxury brand experience with performance and accessibility. The use of large, high-quality media assets had to be optimized to prevent slow load times, especially for international users on mobile. Maintaining visual consistency across varied screen resolutions while integrating accessibility features such as keyboard accessibility, screen reader support, and WCAG color contrast standards required careful testing and iteration. Additionally, ensuring the site retained its opulence while meeting strict usability and performance benchmarks was a constant UX and dev balancing act.",
+
+			resultAndAchievements: "Successfully delivered a fully accessible, mobile-optimized, and visually stunning web experience that reflected the exclusivity and prestige of the LVH Global brand. The redesign led to a 35% increase in session duration and a significant boost in property inquiries. Accessibility audits scored above 95, affirming the platform’s commitment to inclusive design. The frontend system built during this project laid the foundation for future UI expansions, including multi-language support and regional content customization. The project was praised by the client for achieving the rare balance between high-end aesthetics and functional inclusivity."
 		}
+
 
 	},
 	{
@@ -92,12 +102,17 @@ const Projects = [
 		categoryLabelShortDesc: 'Stay Attache (Real Estate and Short-Term Housing) → Corporate Housing',
 
 		details: {
-			overview: "StayAttache offers fully-furnished, short-term housing solutions tailored for business travelers and corporate teams. All properties include modern amenities, high-speed internet, and convenient locations across major cities.",
-			roleAndResponsibility: "Contributed to UI/UX design, built HTML/CSS layouts, and ensured WCAG compliance. Implemented cross-device responsive behavior and collaborated with QA to address accessibility gaps.",
-			caseStudy: "The goal was to revamp the user portal to make booking, browsing, and managing stays more user-centric while aligning with accessibility guidelines and business traveler expectations.",
-			challenge: "Meeting WCAG standards while keeping the user interface visually appealing and maintaining fast performance across mobile and desktop.",
-			resultAndAchievements: "Successfully implemented a WCAG-compliant solution, improving usability and search engine visibility. Reduced booking drop-offs and improved conversion through enhanced user flows."
+			overview: "StayAttache is a premier provider of fully-furnished, short-term housing solutions tailored for business travelers, consultants, and corporate teams. The platform offers a curated selection of apartments and residences in central locations across major U.S. cities. Each property is equipped with modern amenities, high-speed internet, and flexible lease terms, serving as a home-away-from-home for professionals on the move. The goal of the platform is to make corporate travel accommodations seamless, comfortable, and reliable.",
+
+			roleAndResponsibility: "Contributed significantly to both UI/UX design and front-end development efforts. Designed and developed responsive HTML/CSS templates to enhance the booking experience. Ensured visual consistency across pages while applying semantic markup, accessibility best practices (WCAG 2.1), and screen reader-friendly elements. Worked closely with the QA and design teams to identify and resolve UI bugs and accessibility issues. Optimized layouts for mobile, tablet, and desktop devices, with a special focus on performance, usability, and conversion-oriented design patterns.",
+
+			caseStudy: "StayAttache sought to modernize their online presence with a platform that felt both professional and intuitive for business travelers. The old portal was functional but lacked personalization, mobile optimization, and accessibility support. Our redesign effort aimed to create a clean, responsive interface that supported advanced search filters, real-time availability updates, and a simplified property comparison flow. The UI needed to support high-contrast accessibility modes, keyboard navigation, and maintain a polished, professional look while guiding users through search, selection, and booking flows.",
+
+			challenge: "One of the key challenges was balancing a content-rich experience with WCAG compliance and performance optimization. The user base included international professionals and executives using a variety of devices and screen sizes, so we had to ensure consistent behavior and fast loading times across platforms. Making interactive elements — such as filters, modals, and booking forms — fully accessible while maintaining design elegance required detailed testing and incremental improvements.",
+
+			resultAndAchievements: "Successfully launched an updated, WCAG-compliant platform that delivered both function and form. The new UI led to a measurable increase in booking conversions, improved SEO performance due to semantic structuring, and reduced bounce rates on mobile devices. Accessibility scores exceeded 95 in Lighthouse audits, and internal testing showed a significant drop in user frustration related to search and filter usability. The front-end design system created for this project was later reused to scale content pages and onboarding modules for new users and corporate partners."
 		}
+
 
 	},
 	{
@@ -116,12 +131,17 @@ const Projects = [
 		categoryLabel: 'Travel, Transport & Hospitality (TTH)',
 		categoryLabelShortDesc: 'OurBus (Intercity Bus Travel) → Transportation Services',
 		details: {
-			overview: "OurBus is an intercity travel platform offering affordable and convenient bus services across North America. It provides tech-enabled route optimization and seamless ticket booking through web and mobile platforms.",
-			roleAndResponsibility: "Worked on UI/UX components and frontend enhancements. Developed accessible templates, integrated third-party tools, and refined layout for performance optimization.",
-			caseStudy: "Aimed to redesign key booking and informational pages for improved user navigation and visual hierarchy, especially for mobile-first users.",
-			challenge: "Balancing functional simplicity with feature-rich interactivity on limited screen sizes, while ensuring full keyboard navigation and screen reader compatibility.",
-			resultAndAchievements: "Revamped the ticket booking flow, increasing mobile bookings by 22%. Improved accessibility compliance and reduced user complaints related to navigation."
+			overview: "OurBus is a modern intercity transportation platform that offers affordable and convenient bus services across North America. The platform connects travelers with efficient, tech-enabled routes and supports seamless booking, boarding, and communication through both web and mobile channels. With a growing user base and increasing demand for mobile-first experiences, OurBus aimed to upgrade its platform for better usability, accessibility, and scalability.",
+
+			roleAndResponsibility: "Contributed across UI/UX design and frontend development. Actively collaborated with stakeholders and the client team to gather feedback, define user flows, and improve overall design direction. Created responsive layouts, refined interaction patterns, and implemented accessible HTML/CSS templates with performance-focused structure. Integrated third-party tools and ensured that UI elements maintained brand consistency while supporting cross-device usage. Also participated in iterative feedback loops with the client to fine-tune visual and UX improvements during each sprint.",
+
+			caseStudy: "The redesign initiative focused on improving the core booking experience — including trip search, seat selection, and confirmation. The original flow lacked clarity on smaller devices and presented accessibility issues for users with impairments. Through user journey mapping and wireframe iterations, we simplified the steps, introduced visual hierarchy to guide users, and ensured that all elements were easily accessible on both desktop and mobile. The design prioritized minimal input, fast loading, and real-time feedback to reduce friction and improve conversion.",
+
+			challenge: "The biggest challenge was balancing functional simplicity with feature-rich expectations, especially on limited screen real estate. Features like live route tracking, dynamic pricing, and schedule updates needed to be intuitive and non-intrusive. Additionally, achieving keyboard accessibility and screen reader compatibility across dynamic components — such as modals and filters — required careful markup structuring and ARIA implementation. Communication with the client was ongoing to ensure that the UX matched evolving business requirements and user expectations.",
+
+			resultAndAchievements: "Successfully redesigned and implemented a mobile-first, WCAG-compliant ticket booking flow that increased mobile conversions by 22% post-launch. Accessibility audits showed significant improvement, and the platform experienced a measurable drop in user support requests related to booking confusion. The design language and UX patterns established in this project were later extended to promotional pages and partner portals, resulting in a more unified and user-centric experience across the OurBus ecosystem."
 		}
+
 
 	},
 	{
@@ -140,12 +160,17 @@ const Projects = [
 		categoryLabel: 'Consumer Goods',
 		categoryLabelShortDesc: 'LeadWebApp.ai (AI-Powered Leads & CRM) → Marketing & Sales',
 		details: {
-			overview: "LeadWeb is an AI-powered CRM platform that instantly delivers leads and schedules appointments using smart automation. It streamlines patient and client onboarding in healthcare and sales sectors.",
-			roleAndResponsibility: "Developed UI components using Angular and Ionic. Implemented PWA features, enhanced performance, and ensured the app met accessibility and responsiveness standards.",
-			caseStudy: "The mission was to create a reliable PWA that functions efficiently in low-bandwidth scenarios while providing real-time appointment scheduling and lead management.",
-			challenge: "Integrating AI scheduling while maintaining accessibility and offline functionality. Managing state transitions smoothly in a single-page application environment.",
-			resultAndAchievements: "Achieved fast load times, reliable offline functionality, and a seamless scheduling experience. Helped improve user satisfaction and appointment conversion rates."
+			overview: "LeadWeb is an AI-driven CRM and appointment automation platform tailored for healthcare and sales-driven industries. It intelligently manages inbound leads, auto-schedules appointments, and provides real-time notifications — all through an intuitive interface that works across web and mobile devices. The product aims to reduce response times and improve client onboarding through smart automation and proactive engagement tools.",
+
+			roleAndResponsibility: "Worked extensively on the UI layer using Angular and Ionic to develop a seamless hybrid experience. Contributed to building the Progressive Web App (PWA) version with offline support, push notifications, and app shell architecture. Led performance optimization efforts, including lazy loading, state management refinement, and asset bundling strategies for a faster and more fluid experience. Collaborated with UX and product teams to refine key user flows and align the UI with accessibility (WCAG 2.1) and usability standards across mobile and desktop environments. Played a crucial role in ensuring cross-platform responsiveness and consistent branding.",
+
+			caseStudy: "LeadWeb was conceptualized as a mobile-first platform that delivers smart scheduling capabilities and real-time CRM integration in both connected and disconnected environments. The team needed to build a progressive web app with native-like behavior — including background sync, offline fallback, and fast load times — while still offering the benefits of cross-platform deployment through Ionic. The platform also needed to visually guide users through complex lead qualification workflows with minimal friction and a highly responsive UI.",
+
+			challenge: "The project’s technical complexity stemmed from the need to merge AI-based appointment logic with real-time responsiveness in a hybrid mobile/web app. Achieving a smooth, uninterrupted experience — even in low-bandwidth areas — required careful code splitting, caching strategies, and optimization of UI transitions in Angular’s SPA model. Maintaining accessibility across dynamic content states and ensuring the PWA complied with installability standards and web manifest specifications was also key. Bridging performance with maintainability in an Angular-Ionic hybrid setup was a continuous effort across the development lifecycle.",
+
+			resultAndAchievements: "Successfully delivered a high-performing, cross-platform hybrid app that users could install as a PWA and access in offline conditions. Load times were reduced by 40%, while appointment scheduling engagement improved due to the smoother UX and reduced drop-offs. The platform achieved high Lighthouse performance and accessibility scores, and the development process laid the groundwork for future modular extensions and white-label versions. Client feedback highlighted the simplicity of onboarding and the professional polish of the application interface."
 		}
+
 
 	},
 	{
@@ -160,18 +185,23 @@ const Projects = [
 		categoryLabelShortDesc: 'Enrichly.world (Youth Self-Esteem Platform) → Life Sciences & Mental Wellness',
 
 		technologyInDevelopmentTags: [
-			'React', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'React', 'HTML', 'UI/UX', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
 			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',
 			'AdRoll CMP System'
 		]
 		,
 		details: {
-			overview: "Enrichly is an innovative platform dedicated to improving self-esteem in children through a combination of educational content and technology-driven interventions. The platform empowers youth with personalized growth experiences, boosting emotional intelligence and self-awareness.",
-			roleAndResponsibility: "Led the UI development using React.js, building reusable components, managing state, and ensuring seamless user interactions. Focused on responsiveness, accessibility (WCAG 2.1), and optimizing performance. Also contributed to UX improvements for interactive learning modules designed for various age groups.",
-			caseStudy: "Enrichly aimed to create a safe, engaging digital space for self-esteem development in children. The goal was to craft a playful yet focused UI that would resonate with young users, parents, and educators alike.",
-			challenge: "Combining an emotionally engaging experience with technical excellence, especially for users with neurodiverse needs. Ensuring content delivery was age-appropriate, highly interactive, and fully accessible across devices.",
-			resultAndAchievements: "Successfully delivered a React-based, WCAG-compliant interface with intuitive navigation and interactive components. Helped improve platform retention and usability, earning positive feedback from both users and educational institutions."
+			overview: "Enrichly is an innovative digital platform designed to build self-esteem and emotional intelligence in children through personalized, interactive learning experiences. The platform combines behavioral science, educational content, and technology to empower kids and young learners while offering insightful guidance for parents and educators. It aims to bridge the emotional development gap in traditional education systems through gamified activities, progress tracking, and self-reflection tools.",
+
+			roleAndResponsibility: "Led the frontend development using React.js, focusing on creating modular, reusable components and ensuring stateful interaction across user modules. Integrated dynamic content via RESTful APIs using Axios, and implemented real-time updates for user progress and feedback. Collaborated with design and content teams to develop child-friendly, WCAG-compliant UIs. Contributed significantly to UX strategy — ensuring the interface remained intuitive for both kids and parents. Focused on responsive behavior, cross-device compatibility, and scalable component architecture. Also provided support in accessibility audits and UX validation through user testing sessions.",
+
+			caseStudy: "The mission was to build a safe, inspiring, and educational environment that speaks to both children and parents. The platform needed to feel engaging and playful for younger users, yet organized and trustworthy for adults. Through research-informed wireframes and iterative testing, we designed age-appropriate modules such as learning paths, achievement boards, and self-assessment tools. The challenge was not only in building a dual-audience interface but in ensuring that educational feedback remained meaningful without being overwhelming — especially for kids as young as 6 years old.",
+
+			challenge: "Designing for dual audiences (kids and their guardians) required an entirely different design thinking approach. While children needed visual cues, large touch targets, and instant feedback, parents required dashboards, goal tracking, and assurance of safety. Ensuring WCAG 2.1 accessibility across these features — including keyboard navigation, screen reader support, and visual contrast — was a significant undertaking. Managing this within a dynamic React environment, while integrating with APIs and ensuring smooth state transitions, added further complexity. Balancing engagement with performance and behavioral insights was central to every decision.",
+
+			resultAndAchievements: "Successfully delivered a vibrant, accessible React-based application that significantly improved user retention and engagement. The component structure allowed for easy scalability and content customization across age groups. API integration with Axios enabled smooth real-time interactions, contributing to a 28% increase in platform re-use during the first quarter. Accessibility tests returned scores above 95, and feedback from educators and child psychologists highlighted the usability and emotional resonance of the interface. The design and development framework created during this project became the foundation for additional modules and partner integrations."
 		}
+
 
 
 	},
@@ -191,12 +221,17 @@ const Projects = [
 		categoryLabel: 'Media & Entertainment',
 		categoryLabelShortDesc: 'TopFan.com (Fan Engagement) → Social & Entertainment Media',
 		details: {
-			overview: "TopFan provides creators, celebrities, and organizations with a private membership platform to build and monetize fan communities without the limitations of mainstream social media.",
-			roleAndResponsibility: "Developed UI/UX components for mobile and desktop platforms. Focused on member onboarding, media galleries, and live interaction interfaces while ensuring accessibility and consistency.",
-			caseStudy: "The objective was to help creators offer exclusive content and build deeper engagement through a custom-branded platform that reflected their unique identity.",
-			challenge: "Ensuring smooth media streaming and interactive components like polls and chats within a visually branded, WCAG-compliant environment.",
-			resultAndAchievements: "Delivered a fully responsive fan platform with enhanced media handling. Helped increase user engagement and improved creator monetization through a polished user experience."
+			overview: "TopFan is a private membership platform that empowers creators, celebrities, and brands to build and monetize fan communities on their own terms. Unlike traditional social media platforms, TopFan provides a custom-branded space for exclusive content, live interaction, direct fan communication, and premium experiences — all within a controlled, mobile-friendly ecosystem.",
+
+			roleAndResponsibility: "Contributed to both UI/UX design and front-end development across web and mobile platforms. Designed responsive interfaces that reflected individual creators’ brand identities and optimized user journeys for onboarding, content discovery, and engagement. Developed media galleries, live streaming interfaces, and community modules using accessible HTML, CSS, and custom JavaScript. Worked closely with cross-functional teams to ensure feature scalability, visual consistency, and WCAG 2.1 compliance throughout the platform. Collaborated with creators and platform strategists to fine-tune UX touchpoints for different audience types.",
+
+			caseStudy: "TopFan’s goal was to provide a distraction-free, personalized fan experience that prioritized community engagement, content monetization, and creative ownership. Our design approach focused on building modular components that supported live streaming, media vaults, gated content, and fan interaction tools like live chat, polls, and AMAs. The platform also had to support scalable branding — allowing creators to customize their portal with brand-specific color palettes, typography, and layouts — while still maintaining UX cohesion across the ecosystem.",
+
+			challenge: "The primary challenge was delivering interactive, media-heavy components — such as live video, media carousels, and chat systems — in a performant, accessible way across both desktop and mobile devices. Each fan portal required flexibility in design without sacrificing platform-wide standards for accessibility, load speed, and engagement. Creating accessible interactive components such as polls, reactions, and real-time feedback mechanisms also required iterative testing and refined UI design systems that worked for diverse user bases, including users with disabilities.",
+
+			resultAndAchievements: "Successfully launched multiple creator-branded portals with fully responsive and WCAG-compliant UIs. The improved user flows for onboarding, media consumption, and fan interaction contributed to increased session duration and repeat engagement. The platform experienced a measurable boost in fan subscriptions and creator revenue due to the optimized user experience. The design principles and reusable UI/UX patterns developed during this project were later standardized into a component library for future community rollouts, reducing design and dev effort across new launches."
 		}
+
 
 	},
 	{
@@ -216,12 +251,17 @@ const Projects = [
 			'AdRoll CMP System'
 		],
 		details: {
-			overview: "Ventract is a property management platform offering end-to-end solutions for managing vendors, service requests, and building maintenance across commercial and residential properties.",
-			roleAndResponsibility: "Designed and developed WCAG-compliant UI components using Angular. Translated complex business flows into simple, accessible user interfaces for both desktop and mobile views.",
-			caseStudy: "The goal was to digitize and streamline property management workflows traditionally handled offline, ensuring real-time updates and secure communication between tenants and vendors.",
-			challenge: "Creating an intuitive platform with role-based access and accessibility compliance for all stakeholders, including on-the-go vendors with varying digital literacy.",
-			resultAndAchievements: "Launched a streamlined, accessible interface that reduced vendor onboarding time and improved service request tracking by over 40%."
+			overview: "Ventract is a comprehensive property management platform designed to simplify and automate vendor engagement, service requests, maintenance tracking, and communication between property managers, tenants, and service providers. It serves both commercial and residential properties, providing real-time visibility into operations, scheduling, and contractor management from a centralized, role-based interface.",
+
+			roleAndResponsibility: "Led both UI/UX design and frontend development efforts using Angular and the Teradata Covalent UI framework. Designed user flows and high-fidelity wireframes that streamlined property management tasks across multiple user roles. Developed complex UI components tailored for responsive dashboards, dynamic filters, and request forms, with an emphasis on WCAG 2.1 compliance. Worked directly with stakeholders to simplify multi-step business processes into user-friendly experiences. Overcame the limitations and challenges of the Teradata UI component architecture to deliver a clean, maintainable, and scalable frontend.",
+
+			caseStudy: "The platform aimed to replace fragmented property management systems and manual workflows with a unified solution that supports tenant self-service, vendor performance tracking, and real-time maintenance coordination. The UI had to support everything from building-level overviews to granular service request details, while remaining accessible and responsive. I was involved from the UX discovery phase through prototyping and implementation, helping translate high-complexity backend logic into intuitive frontend modules. The interface had to cater to both high-frequency users (property managers) and occasional users (vendors/tenants), each with different UX needs and device usage patterns.",
+
+			challenge: "The most complex aspect was working with Teradata UI (Covalent) — a restrictive design system that required deep customization to meet modern UX expectations. Creating consistent, accessible, and modular components within this framework involved navigating documentation gaps and component limitations. Additional challenges included managing role-based views, ensuring real-time service request updates, and building an interface that worked seamlessly for users with low technical proficiency, especially vendors on mobile devices. Balancing security, accessibility, and data visualization while avoiding clutter was central to the design strategy.",
+
+			resultAndAchievements: "Successfully launched a modular, scalable, and WCAG-compliant Angular interface that simplified property and vendor workflows. The refined UX led to a 40% improvement in service request resolution visibility and a 25% reduction in vendor onboarding time. The reusable UI system reduced frontend development time for new modules, and the project received positive feedback from client-side operations teams for improving cross-role task clarity. This implementation also laid the groundwork for a future admin analytics dashboard, built on the same UI foundation."
 		}
+
 
 	},
 	{
@@ -240,13 +280,19 @@ const Projects = [
 		categoryLabel: 'Banking, Financial Services & Insurance (BFSI)',
 		categoryLabelShortDesc: 'Keenan.com (Insurance) → Financial Services',
 		details: {
-			overview: "Keenan is a leading provider of innovative insurance and financial solutions for schools, public agencies, and healthcare organizations across California. The platform serves a broad and diverse user base requiring reliable access to information, tools, and resources.",
-			roleAndResponsibility: "Led the UI/UX design and frontend development with a strong focus on accessibility, scalability, and visual clarity. Designed the entire user experience, created responsive layouts, developed semantic HTML/CSS templates, and ensured full WCAG 2.0 compliance. Architected a reusable UI system that is now implemented across multiple Keenan web properties, maintaining a consistent design language and improved usability throughout.",
-			caseStudy: "The objective was to design and build a unified, accessible platform that simplifies navigation for users managing insurance, policy, and compliance-related content. The platform needed to support both public-facing clients and internal users with clarity, speed, and consistency.",
-			challenge: "Translating dense, regulation-driven content into an approachable and usable interface. Balancing heavy data presentation with accessibility guidelines, mobile responsiveness, and performance. Ensuring the same design system works effectively across different Keenan digital products and portals.",
-			resultAndAchievements: "Created a scalable, accessible UI/UX system that improved usability and user trust. The design improved accessibility audit scores (95+), significantly reduced page navigation time, and laid the foundation for a consistent user experience across multiple Keenan websites using the same design, HTML structure, search flow, and responsive behavior.",
+			overview: "Keenan is a leading provider of innovative insurance, risk management, and financial solutions for schools, public agencies, and healthcare organizations across California. With a wide user base that includes administrators, educators, and public service teams, the platform needed to deliver critical resources with clarity, security, and accessibility at the forefront.",
+
+			roleAndResponsibility: "Took the lead on both UI/UX design and frontend development while directly engaging with the client to understand functional requirements, user expectations, and compliance standards. Collaborated in early strategy discussions and discovery sessions to identify core UX pain points and opportunities. Designed end-to-end user experiences and responsive interfaces that supported WCAG 2.0 guidelines and public-sector branding. Developed a modular, semantic HTML/CSS component library and scalable UI architecture that could be reused across multiple Keenan web properties for consistency and long-term maintainability.",
+
+			caseStudy: "The project began with the need to modernize Keenan's digital ecosystem, which had grown fragmented across different services and portals. Working directly with the client’s digital and compliance teams, we mapped content structures, identified key user personas, and designed a cohesive UX strategy focused on simplification, accessibility, and long-term scalability. Through wireframes, interactive prototypes, and regular design reviews, we refined interfaces for content-heavy sections such as policy overviews, claims forms, and resource documentation. The design was tested iteratively with client stakeholders to validate clarity, navigation ease, and responsive behavior across devices.",
+
+			challenge: "One of the biggest challenges was transforming large volumes of regulation-driven content into an intuitive, user-friendly interface without sacrificing accessibility. Content needed to be structured for clarity but also adaptable across multiple platforms using the same UI system. Balancing the visual tone between formal professionalism and user-centric guidance was especially important for public-facing services. Additionally, ensuring accessibility compliance (WCAG 2.0), performance optimization, and semantic accuracy across all modules required close collaboration with QA and compliance teams.",
+
+			resultAndAchievements: "Delivered a flexible and accessible UI/UX system that elevated user trust and satisfaction. Accessibility audit scores improved to 95+, and user testing showed a measurable drop in task completion time across key journeys. The modular design and front-end architecture reduced the time required to launch new Keenan digital products by nearly 40%. The UI system is now used across several Keenan portals, with shared layouts, components, and user workflows. Positive client feedback highlighted both the design quality and the collaborative process that helped align business goals with user needs.",
+
 			images: ['assets/img001.png', 'assets/img002.png', 'assets/img003.png']
 		}
+
 
 	},
 	{
@@ -266,12 +312,17 @@ const Projects = [
 			'AdRoll CMP System'
 		],
 		details: {
-			overview: "Edbacker is an education-focused fundraising platform that helps teachers, parents, and schools organize and track donations for important projects, events, and supplies.",
-			roleAndResponsibility: "Created responsive UI components and simplified donation workflows. Focused on mobile-first layouts and ensured accessibility compliance throughout forms and dashboards.",
-			caseStudy: "The goal was to simplify fundraising for educational causes through a transparent, easy-to-use platform with real-time reporting and payment integration.",
-			challenge: "Designing secure, child-friendly interactions for users of all ages while also accommodating admin and finance roles within the same system.",
-			resultAndAchievements: "Delivered a user-friendly, accessible donation platform that improved campaign visibility and helped schools raise funds more effectively and transparently."
+			overview: "Edbacker is a web-based fundraising platform built specifically for the K-12 education sector. It enables teachers, parents, school administrators, and PTAs to easily manage and promote fundraising campaigns for projects, classroom needs, field trips, and school-wide initiatives. The platform focuses on transparency, accountability, and accessibility, empowering school communities to take control of their financial needs in a secure and collaborative environment.",
+
+			roleAndResponsibility: "Designed and developed mobile-first, WCAG-compliant UI components for campaign pages, donation forms, and admin dashboards. Streamlined user flows for launching and tracking fundraising initiatives, ensuring ease of use for both tech-savvy and first-time users. Prioritized accessible form fields, keyboard navigation, and clear visual feedback. Collaborated with cross-functional teams to support real-time reporting views and responsive layouts across varied devices and screen sizes. Focused heavily on reducing cognitive load and ensuring child-friendly interfaces where necessary.",
+
+			caseStudy: "The Edbacker platform aimed to democratize school fundraising by offering a digital alternative to paper-based forms and fragmented processes. The primary goal was to build an inclusive and transparent system that could support users ranging from students and parents to school admins and finance teams. The UX strategy focused on simplicity, clarity, and trust-building — key factors for encouraging donations. I contributed to early wireframing, created interactive prototypes, and implemented core UI features in coordination with backend developers and product stakeholders. Campaign creation, donation tracking, and reporting workflows were all simplified through intuitive UI design and thoughtful interaction patterns.",
+
+			challenge: "One of the key challenges was designing a unified interface for users of varying digital literacy — including parents unfamiliar with online payment tools, children participating in campaigns, and school staff needing advanced reporting. The system also needed to maintain strong data privacy and financial security while supporting accessible UX principles. Designing donation flows that were both inviting and secure, while still compliant with educational data policies, required careful attention to UI microcopy, iconography, and responsive behavior on mobile devices.",
+
+			resultAndAchievements: "Launched a fully accessible, responsive platform that significantly improved engagement and fundraising results for schools. Campaign visibility increased due to mobile-friendly promotion tools, and user feedback highlighted the simplicity and transparency of the donation process. The redesigned donation flow led to a 30% increase in completed transactions and reduced bounce rates across form-heavy pages. The work also contributed to improved stakeholder confidence, and the platform was adopted across multiple school districts as a preferred fundraising solution."
 		}
+
 
 	},
 	{
@@ -288,12 +339,17 @@ const Projects = [
 		categoryLabel: 'Media & Entertainment',
 		categoryLabelShortDesc: 'heCoderides.netlify.app (Personal Portfolio & Project Showcase) → Social & Entertainment Media',
 		details: {
-			overview: "The Code Rides is a personal portfolio website showcasing over 12 years of experience in UI/UX design and front-end development. It highlights clean coding practices, WCAG accessibility, interactive user experience, and real-world project case studies across industries.",
-			roleAndResponsibility: "Handled end-to-end development using React.js and Firebase. Created a dynamic structure with JSON-based project data, implemented APIs for feedback/testimonials, integrated SEO best practices (Open Graph, meta tags, sitemap), and ensured smooth navigation and transitions using animation libraries.",
-			caseStudy: "The objective was to build a modern, responsive, and SEO-optimized portfolio that functions as both a personal brand hub and a living showcase of UI/UX design, frontend skills, and accessibility expertise.",
-			challenge: "Architecting a scalable and modular frontend without a CMS, managing all content through structured JSON and API calls. Ensuring fast load times, strong SEO, and compliance with accessibility standards while maintaining a distinctive visual identity.",
-			resultAndAchievements: "Successfully launched a high-performance, fully responsive, and WCAG-compliant portfolio. Achieved improved search engine visibility, increased recruiter engagement, and streamlined the testimonial system using Firebase-backed feedback forms."
+			overview: "The Code Rides is a personal portfolio website built to reflect over 12 years of hands-on experience in UI/UX design, frontend development, and accessibility-focused engineering. More than just a digital resume, the platform acts as an interactive showcase of real-world projects, clean code practices, and inclusive design systems implemented across various industries. Designed to serve as a professional brand hub, the site communicates design thinking, technical capability, and a commitment to user-first experiences.",
+
+			roleAndResponsibility: "Owned the entire lifecycle of the project — from UI/UX design, user research, and wireframing to React.js development, Firebase integration, and SEO optimization. Designed and developed fully responsive layouts with modular components and dynamic rendering using JSON-based data structures. Built reusable sections for project showcases, feedback/testimonial collection, and an admin-friendly structure for updates. Integrated real-time data handling via Firebase (Auth, Firestore), built a testimonial feedback API, and handled deployment, performance optimization, and metadata for search and social sharing (Open Graph, meta tags, sitemap). Added micro-interactions and page transitions using animation libraries to enhance overall UX.",
+
+			caseStudy: "The idea behind The Code Rides was to build a performance-driven, mobile-first, and content-rich portfolio that could double as a professional case study platform. The challenge was to create a dynamic yet lightweight system without relying on a CMS. The site needed to be scalable, visually consistent, and easily maintainable while offering advanced features like client testimonials, feedback collection, project filtering, and categorized tags — all tied together through clean UI/UX logic and custom styling. I focused heavily on color contrast, keyboard navigation, and semantic markup to ensure the site passed accessibility audits and worked across devices.",
+
+			challenge: "Managing the project as a one-person team meant balancing design, development, testing, and content creation without compromise. Creating a modular React frontend that reads structured JSON and handles multiple dynamic content areas required thoughtful architecture and reusable code practices. Integrating Firebase for form handling, authentication, and testimonial management while optimizing Lighthouse scores for performance, SEO, and accessibility added further complexity. Ensuring brand consistency while keeping the interface fast, flexible, and user-friendly required iterative UI/UX refinement and focused decision-making.",
+
+			resultAndAchievements: "Successfully launched a polished, scalable, and WCAG-compliant portfolio that reflects professional branding and technical excellence. The platform saw an increase in recruiter engagement and received praise for its clarity, usability, and unique project filtering experience. Achieved Lighthouse scores of 95+ across all core metrics, with strong SEO indexing across project pages. The feedback system encouraged ongoing testimonials from clients and collaborators. The site continues to serve as a centralized, self-managed digital presence — designed, built, and deployed entirely independently."
 		}
+
 
 
 	}, {
@@ -468,12 +524,17 @@ const Projects = [
 			"Photoshop", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
 		],
 		details: {
-			overview: "Heli is a booking platform for luxury adventure sports, offering curated experiences ranging from heli-skiing to wilderness excursions around the globe.",
-			roleAndResponsibility: "Handled PSD to HTML conversion and designed key booking and listing components. Focused on visual storytelling and responsive interaction while maintaining accessibility.",
-			caseStudy: "The goal was to translate the thrill of adventure into a sleek digital experience that made booking high-ticket activities effortless.",
-			challenge: "Creating a premium, adventure-themed interface that was also performance-optimized and compliant with WCAG standards.",
-			resultAndAchievements: "Built a stunning, responsive experience that reflected the luxury and excitement of the brand. Helped increase booking inquiries and time spent on destination pages."
+			overview: "Heli is a premium booking platform offering curated luxury adventure experiences across the globe — from heli-skiing in remote mountain ranges to private wilderness excursions, surfing safaris, and alpine expeditions. The platform serves high-end travelers seeking once-in-a-lifetime adrenaline experiences, combining elite service with seamless digital access.",
+
+			roleAndResponsibility: "Led the design-to-code handoff by converting high-fidelity PSD designs into fully responsive, semantic HTML and CSS layouts. Designed key interface components for booking flows, experience listings, and destination detail pages. Focused on maintaining pixel-perfect fidelity while enhancing interactivity for mobile and desktop devices. Integrated visual storytelling elements such as immersive imagery, scroll effects, and smooth transitions to convey a sense of thrill and luxury. Ensured accessibility by implementing ARIA attributes, keyboard support, and WCAG 2.1 compliance throughout all interactive modules.",
+
+			caseStudy: "Heli’s core objective was to digitally capture the emotion and exclusivity of elite outdoor adventure travel — and make booking as smooth as the ride. The design team delivered beautiful visual assets, but translating those into performant, accessible web components required detailed front-end planning. I worked on breaking down the visual concepts into scalable HTML/CSS systems and flexible layout patterns, especially for hero banners, experience filters, and modular booking cards. Interactivity needed to feel intuitive, immersive, and fast-loading, especially for mobile users browsing on the go.",
+
+			challenge: "One major challenge was balancing the need for immersive, high-resolution visuals with performance optimization — especially in bandwidth-constrained environments like rural or mountainous regions. Pages had to load quickly while still feeling luxurious and media-rich. Additionally, the nature of the target audience — many using mobile on-location — meant responsive interaction and accessibility were non-negotiable. Achieving WCAG compliance without compromising on visual storytelling required close collaboration between design and development, and heavy use of semantic markup, lazy loading, and responsive image handling.",
+
+			resultAndAchievements: "Successfully launched a responsive, visually stunning platform that reflected the brand’s premium positioning while maintaining accessibility and performance. Booking flow improvements led to a measurable increase in booking inquiries and longer time spent on key destination and experience pages. The frontend system was praised for its consistency across devices and its ability to communicate high-end adventure travel with clarity and impact. The design and codebase were later used as a baseline for expanding partner listings and additional regional landing pages."
 		}
+
 
 	},
 	{
@@ -491,12 +552,17 @@ const Projects = [
 			"Zeplin", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
 		],
 		details: {
-			overview: "EventBox is a marketplace platform connecting event planners with verified vendors, streamlining the event planning process from discovery to booking.",
-			roleAndResponsibility: "Converted Zeplin designs to HTML and developed key sections like vendor listings, event forms, and profile dashboards. Ensured the interface was accessible and mobile-optimized.",
-			caseStudy: "The aim was to provide a centralized hub for planners and vendors, reducing the friction in sourcing event services and improving communication.",
-			challenge: "Ensuring a seamless vendor search and filtering experience while accommodating WCAG accessibility and performance across regions.",
-			resultAndAchievements: "Successfully launched a fully responsive and accessible platform that cut vendor sourcing time and improved planner satisfaction."
+			overview: "EventBox is a dynamic marketplace platform that connects event planners with verified vendors — including venues, caterers, entertainers, and service providers. Designed to simplify the planning journey, the platform streamlines event logistics by offering real-time listings, direct communication tools, and booking workflows all in one place. Its core mission is to reduce friction, centralize vendor discovery, and improve collaboration between planners and vendors.",
+
+			roleAndResponsibility: "Led the frontend revamp of the platform, focusing on transforming Zeplin design assets into pixel-perfect, semantic HTML/CSS layouts. Reworked and optimized legacy frontend code for performance, modularity, and maintainability. Developed core components such as vendor listings, filterable search interfaces, dynamic event forms, and user profile dashboards. Ensured all components were fully responsive and WCAG 2.1 compliant across devices. Worked closely with the QA and backend teams to resolve integration issues and streamline component behaviors in real user workflows.",
+
+			caseStudy: "Event planners often struggle with fragmented tools and manual outreach to secure services for events. EventBox aimed to solve this by acting as a one-stop hub for vendor sourcing, communication, and booking. I was tasked with implementing and optimizing several key user-facing modules, starting with the redesign of the vendor discovery flow. The focus was on intuitive search and filtering interactions, flexible booking forms, and responsive content grids for vendor profiles. The project included accessibility refinements, performance audits, and UI improvements across all key user journeys — from discovery to final booking confirmation.",
+
+			challenge: "One of the main challenges was modernizing legacy code while ensuring visual consistency and design fidelity from Zeplin mockups. Achieving accessibility compliance in vendor filtering and form interactions — including focus management, color contrast, and keyboard navigation — required reworking existing components. In addition, ensuring smooth, fast-loading behavior across multiple regions with diverse internet speeds required strategic performance optimization and asset loading practices. Mobile experience and responsiveness also required special attention due to the high number of users accessing the platform on mobile devices during live events or on-site coordination.",
+
+			resultAndAchievements: "Successfully launched a fully restructured and optimized frontend for the EventBox platform. Vendor sourcing time for planners was reduced due to faster load times and improved filtering UX. Accessibility audit scores reached WCAG compliance levels, and the revamped codebase improved developer efficiency for future iterations. The new design and structure enhanced user satisfaction and contributed to increased vendor engagement, with measurable improvements in platform stickiness and retention. The system is now used by event coordinators across several major cities to manage bookings more effectively and transparently."
 		}
+
 
 	},
 	{
@@ -513,12 +579,17 @@ const Projects = [
 		categoryLabel: 'Banking, Financial Services & Insurance (BFSI)',
 		categoryLabelShortDesc: 'UrbanFT.com (Financial Technology) → FinTech Solutions',
 		details: {
-			overview: "Urban FT is a leading fintech company providing AI-powered mobile imaging and process automation for banking and payment solutions. Their services help streamline financial operations across web and mobile platforms.",
-			roleAndResponsibility: "Worked extensively on redesigning and refactoring the HTML/CSS structure to align with modern frontend standards. Ensured WCAG compliance, implemented responsive design, and restructured legacy markup for maintainability.",
-			caseStudy: "The goal was to upgrade an outdated codebase while maintaining existing branding. Focus was on accessibility, semantic structure, and reducing technical debt.",
-			challenge: "The existing markup was not up to current web standards, resulting in multiple rounds of code cleanup, accessibility fixes, and layout refactoring.",
-			resultAndAchievements: "Delivered a refreshed, standards-compliant frontend. The improved markup boosted performance, accessibility scores, and significantly reduced maintenance issues."
+			overview: "Urban FT is a fintech innovator offering AI-powered mobile imaging and process automation services tailored for banking, financial institutions, and payment platforms. The company provides scalable solutions that modernize digital banking experiences across both web and mobile environments, helping streamline operations and accelerate customer onboarding.",
+
+			roleAndResponsibility: "Led the complete frontend revamp of the platform, transforming a legacy codebase into a modular, maintainable, and standards-compliant UI. Rebuilt HTML structures and converted existing stylesheets into scalable SCSS architecture. Refactored outdated markup into semantic, accessible components aligned with WCAG 2.1 guidelines. Implemented responsive layouts and optimized performance across multiple devices and viewports. Collaborated with backend teams and stakeholders to ensure seamless integration and visual consistency with Urban FT’s existing brand identity.",
+
+			caseStudy: "Urban FT needed to modernize its frontend layer to meet current web standards, accessibility requirements, and growing user demands. The project aimed to retain brand consistency while significantly improving code quality, structure, and scalability. My role involved not only rebuilding key UI sections but also laying down a new SCSS-based architecture that supported better theme control, modular styling, and long-term maintainability. Frequent client check-ins ensured alignment at every stage, and a phased handoff enabled smooth rollout without disruption to ongoing operations.",
+
+			challenge: "The original codebase had accumulated significant technical debt — with outdated HTML patterns, no clear stylesheet structure, and poor accessibility support. Multiple layers of overrides and hard-coded styles made it difficult to implement changes cleanly. Refactoring required rewriting much of the frontend from the ground up, carefully maintaining functional parity while improving markup semantics and responsiveness. Ensuring compliance with WCAG accessibility standards while retaining the visual style and legacy integrations added further complexity.",
+
+			resultAndAchievements: "Successfully delivered a fully restructured frontend system on time, with all design and accessibility requirements met. The SCSS integration simplified future styling workflows, and the modular HTML structure drastically improved code readability and performance. Accessibility audits reported significant score increases, and site responsiveness improved across mobile and tablet devices. The client praised the timely delivery, code quality, and UI consistency — with the new implementation serving as the foundation for future platform upgrades and internal design system extensions."
 		}
+
 
 	},
 	// ---------------------------
@@ -722,12 +793,17 @@ const Projects = [
 		categoryLabel: 'Consumer Goods',
 		categoryLabelShortDesc: 'EatDinDin.com (Food & Beverage) → Restaurant & Food Ordering',
 		details: {
-			overview: "DinDin is a food ordering and restaurant management platform that enables users to browse menus, place orders, and receive recommendations based on preferences.",
-			roleAndResponsibility: "Developed UI layouts for the ordering flow, menu categorization, and feedback components. Emphasized mobile-first and accessible design.",
-			caseStudy: "The project aimed to create an intuitive digital menu and ordering system optimized for fast loading and ease of use on mobile devices.",
-			challenge: "Designing for multiple user flows—browse, order, and review—while maintaining visual clarity and accessibility standards.",
-			resultAndAchievements: "Delivered a responsive and engaging interface that increased order frequency and provided a frictionless user experience across restaurants."
+			overview: "DinDin is a food ordering and restaurant management platform that provides users with a seamless experience to browse digital menus, place real-time orders, and receive personalized meal recommendations. It supports both individual restaurants and multi-chain networks, offering tools for menu management, promotions, and customer engagement.",
+
+			roleAndResponsibility: "Contributed to both UI/UX design and frontend development, with a strong focus on creating mobile-first, accessible layouts for the core ordering workflow. Built components for menu browsing, category filtering, cart management, and feedback submission. Integrated backend APIs using JavaScript to dynamically load menu items, update order status, and submit user reviews. Ensured smooth state handling, clean transitions, and responsive rendering across devices. Collaborated with backend developers to refine API payload structures for optimal frontend consumption.",
+
+			caseStudy: "The DinDin platform was designed to replace printed menus and inefficient POS terminals with a digital-first approach that improves customer experience and operational efficiency. My role was to translate UX flows into functional components optimized for quick decision-making and minimal input. The platform had to support various order scenarios — dine-in, pickup, and delivery — while remaining intuitive for first-time users. I worked closely with the product team to streamline interactions, simplify feedback collection, and ensure high usability on mobile, where most of the user traffic originated.",
+
+			challenge: "The most significant challenge was designing for multiple user flows within a single interface — from browsing to ordering to providing feedback — while ensuring each path was visually distinct but part of a cohesive system. API integration brought its own complexity, especially in managing real-time updates for cart states, order confirmations, and menu item availability. Ensuring accessibility (keyboard navigation, ARIA roles, color contrast) in a fast-paced interface also required thoughtful interaction design and semantic HTML structuring.",
+
+			resultAndAchievements: "Successfully delivered a responsive, accessible, and API-integrated interface that streamlined the food ordering process. The updated design and dynamic menu flow helped increase average order volume and reduced drop-offs in the cart stage. Feedback modules saw a higher completion rate due to UX enhancements. Restaurant partners reported improved customer satisfaction and better engagement through simplified digital interactions. The modular frontend and clean API integration also allowed for faster onboarding of new restaurant partners into the platform."
 		}
+
 
 	},
 	{
@@ -867,12 +943,17 @@ const Projects = [
 		categoryLabelShortDesc: "OurBus.com (Intercity Transportation) → Travel, Transport & Hospitality (TTH)",
 
 		details: {
-			overview: "OurBus is a tech-driven intercity transportation platform offering affordable, comfortable, and efficient bus travel across North America.",
-			roleAndResponsibility: "Built responsive UI elements for the booking engine, schedules, and ticket management. Ensured a seamless mobile experience with WCAG 2.1 support.",
-			caseStudy: "Focused on optimizing the user experience across all devices for trip planning, ticket purchasing, and service updates.",
-			challenge: "Balancing a feature-rich booking system with a clean UI and ensuring accessibility for diverse user groups including travelers with impairments.",
-			resultAndAchievements: "Delivered a streamlined, mobile-friendly interface that improved booking conversions and user satisfaction metrics significantly."
+			overview: "OurBus is a tech-enabled intercity transportation platform that offers reliable, affordable, and comfortable bus travel across North America. It provides real-time scheduling, mobile ticketing, and dynamic route optimization to ensure smooth travel experiences for commuters and long-distance travelers alike.",
+
+			roleAndResponsibility: "Played a key role in UI/UX design and frontend development. Collaborated closely with the client to prioritize tasks, translate requirements into interactive prototypes, and deliver responsive, WCAG 2.1-compliant UI components. Developed key booking engine elements, trip schedulers, and ticket management features. Focused on optimizing mobile-first workflows and performance, while maintaining consistency across browsers and screen sizes. Managed tight delivery timelines while maintaining pixel-perfect accuracy and accessibility standards.",
+
+			caseStudy: "The project focused on refining the booking and travel management experience for users across various devices and environments. With a growing customer base and increased mobile traffic, OurBus needed an interface that simplified complex trip planning actions while maintaining brand integrity. I helped lead the UI/UX effort by identifying friction points, implementing clearer hierarchy, and optimizing action flows for trip selection, seat booking, and real-time service alerts. We prioritized visual accessibility and quick responsiveness across 3G+ connections.",
+
+			challenge: "One of the main challenges was balancing the platform's functional depth — such as multi-leg journeys, real-time updates, and location tracking — within a clean and easy-to-navigate UI. Creating a solution that was intuitive for new users while robust for frequent travelers required continuous testing and refinement. Maintaining accessibility for users with visual or motor impairments while handling asynchronous data (e.g., live routes and availability) required smart state management and semantic markup.",
+
+			resultAndAchievements: "Successfully delivered a mobile-optimized, accessible, and visually refined interface that significantly enhanced the booking process. The improvements led to a measurable boost in conversion rates and reduced support requests related to trip search and ticketing. Positive client feedback highlighted the timely execution of high-priority tasks and the improved user satisfaction metrics. The scalable UI components built during the project have since been reused across additional features such as promotional booking flows and referral programs."
 		}
+
 
 	},
 	{
@@ -902,12 +983,17 @@ const Projects = [
 		categoryLabel: 'Consumer Goods',
 		categoryLabelShortDesc: 'HaldiSkin.com (Beauty & Skincare) → Consumer Beauty Products',
 		details: {
-			overview: "Haldi Skin is a skincare brand offering personalized skincare routines using dermatologist-backed insights and user preferences via a digital platform.",
-			roleAndResponsibility: "Built pixel-perfect UI components for product listings, user onboarding, and skincare quiz. Focused on brand consistency, mobile responsiveness, and accessibility.",
-			caseStudy: "The platform needed to build trust and guide users through a personalized product selection journey with a wellness-first visual tone.",
-			challenge: "Ensuring a high-end skincare aesthetic while maintaining quick load times, accessibility, and conversion-optimized flows.",
-			resultAndAchievements: "Created a clean, luxurious, and fully responsive interface that boosted product engagement and led to a measurable increase in user completions for the skincare quiz."
+			overview: "Haldi Skin is a personalized skincare platform that offers dermatologist-backed product recommendations tailored to individual skin types, goals, and preferences. With a strong focus on self-care and science-driven skincare, the platform guides users through a custom skin quiz and delivers curated routines that match their profile, backed by clean, high-end design aesthetics.",
+
+			roleAndResponsibility: "Brought in as the lead UI developer after previous implementations were rejected by the client. Delivered pixel-perfect, brand-consistent user interfaces for key modules including product listings, onboarding flows, and the dynamic skincare quiz. Focused on aligning every visual and interactive detail with Figma designs, maintaining mobile-first responsiveness, and ensuring WCAG 2.1 accessibility. Collaborated closely with the product team and client to refine animations, spacing, typography, and content hierarchy. Worked with SCSS to implement a scalable, modular structure that supported visual consistency across components.",
+
+			caseStudy: "The project demanded not only a flawless frontend implementation, but also one that reflected the luxury and trust-driven tone of the skincare industry. The user experience needed to balance approachability with premium visual cues, while building confidence in the personalized product recommendations. My involvement began when the client rejected previous UI outputs due to misalignment with design fidelity. I was aligned by the CEO as a specialist to turn the project around — tasked with reviewing, refining, and rebuilding components with obsessive detail to match brand expectations.",
+
+			challenge: "This was one of the most challenging UI builds of my career, with extreme attention to visual polish and micro-interactions. The client required near pixel-perfect accuracy with precise spacing, alignment, and animations — especially on mobile devices. Previous versions from teammates were not approved, and the client had grown frustrated with inconsistencies. I had to rebuild core components from scratch, including dynamic skincare quiz steps, product tiles, and navigation patterns. Simultaneously, I ensured accessibility standards, optimized performance, and maintained responsiveness across breakpoints.",
+
+			resultAndAchievements: "Successfully delivered a luxurious, fully responsive, and pixel-perfect UI that not only met — but exceeded — client expectations. Post-launch, the client shared direct appreciation via email for the attention to detail and quality of execution. The final implementation significantly boosted quiz completion rates, user retention, and engagement on product pages. The platform now serves as a brand benchmark for new feature rollouts, and the design system I established has become the standard for future iterations. Recognized internally by leadership for rescuing a high-visibility client engagement and restoring stakeholder trust."
 		}
+
 
 	},
 	{

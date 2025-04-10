@@ -1,64 +1,90 @@
 .tabs-container {
-    /* margin-top: 20px; */
-    margin-bottom: 66px;
+  /* margin-top: 20px; */
+  margin-bottom: 66px;
+}
+
+.nav-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.tab-content {
+  padding: 20px;
+  /* background: #f9f9f9; */
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+/* Smooth Animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fade-out {
+  display: none;
+  /* Hide inactive content */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  .nav-tabs {
-    display: flex;
-    border-bottom: 2px solid #ddd;
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .nav-item {
-    list-style: none;
-  }
-  
-  .nav-link {
-    padding: 10px 20px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    border-bottom: 2px solid transparent;
-  }
-  
-  .nav-link:hover {
-    color: #007bff;
-  }
-  
-  .nav-link.active {
-    font-weight: bold;
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
-  }
-  
-  .tab-content {
-    padding: 20px;
-    /* background: #f9f9f9; */
-    border-radius: 5px;
-    margin-top: 0px;
-  }
-  
-  /* Smooth Animation */
-  .fade-in {
-    animation: fadeIn 0.5s ease-in-out;
-  }
-  
-  .fade-out {
-    display: none; /* Hide inactive content */
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .tab-content>.tab-pane {
-    display: block;
+}
+
+.tab-content>.tab-pane {
+  display: block;
+  margin-bottom: 24px;
+}
+
+@media (min-width:768px) {
+  .tech-tags ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }  
+}
+@media (min-width:992px) {
+  .tech-tags ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }  
+}
+@media (min-width:1200px) {
+  .tech-tags ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }  
+}
+.tech-tags ul li{
+  margin-bottom: 8px;
 }
