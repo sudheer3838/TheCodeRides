@@ -334,7 +334,7 @@ const Projects = [
 		label: "UI Development & React Development",
 		labelRole: "",
 		technologyInDevelopmentTags: [
-			'HTML', 'CSS', 'Bootstrap', 'reCAPTCHA', 'Lottie animation', 'Motion', 'Google Tag Manager', 'ReactStrap', 'FireBase', 'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'React JS','ReactStrap', 'Context API', 'Hooks','FireBase','HTML', 'CSS', 'Bootstrap', 'Netlify', 'reCAPTCHA', 'Lottie animation', 'Motion JS', 'Google Tag Manager',  'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
 		],
 		categoryLabel: 'Media & Entertainment',
 		categoryLabelShortDesc: 'heCoderides.netlify.app (Personal Portfolio & Project Showcase) → Social & Entertainment Media',
