@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CreateProjects from '../components/CreateProjects/Create'
 import axios from 'axios';
+import Loader from '../utlities/Loader/Loader';
 
 const Home = () => {
   const [data, setData] = useState(null);
@@ -22,7 +23,7 @@ const Home = () => {
       });
   }, []); // Empty dependency array means the effect will run once when the component mounts
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <Loader />;
   if (error) return <div>Error: {error}</div>;
 
   return (

@@ -38,6 +38,7 @@
   .home-button:focus {
     background-color: #0056b3;
     outline: none;
+    color: #Fff;
   }
   
   .home-button:focus-visible {

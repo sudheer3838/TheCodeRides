@@ -32,7 +32,7 @@ function Header() {
 							<li className="nav-item"><NavLink className="nav-link" to="/about">About me</NavLink></li>
 							<li className="nav-item"><NavLink className="nav-link" to="/contact">Contact</NavLink></li>
 							<li className="nav-item"><NavLink className="nav-link" to="/portfolio">Portfolio</NavLink></li>
-							<li className="nav-item"><NavLink className="nav-link" to="/admin">Admin</NavLink></li>
+							{/* <li className="nav-item"><NavLink className="nav-link" to="/admin">Admin</NavLink></li> */}
 							{/* <li className="nav-item"><NavLink className="nav-link" to="/resume">Download Resume</NavLink></li> */}
 
 							{/* <li className="nav-item"><NavLink className="nav-link" to="/call">Call me Now</NavLink></li> */}
