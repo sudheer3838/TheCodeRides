@@ -99,7 +99,7 @@ form .form-group .form-control {
 
 form .form-group textarea.form-control {
   min-height: 120px;
-
+  max-height: 220px;
 }
 
 form .cta-wrapper {

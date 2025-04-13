@@ -26,14 +26,14 @@ const aboutUsData = [
       { tech: 'Cross-Browser Compatibility', techDec: 'Ensuring that HTML, CSS, and JavaScript work consistently across all browsers to provide a seamless user experience.', selfRating: 85 },
       { tech: 'Progressive Web Apps (PWA)', techDec: 'Using HTML, CSS, and JavaScript to create web apps that offer native app-like experiences, such as offline functionality and fast loading.', selfRating: 70 },
       { tech: 'ChatGPT', techDec: 'A conversational AI platform used to integrate chatbots into user interfaces for providing real-time support and interactions in web applications.', selfRating: 75 },
-      { tech: 'JSON', techDec: 'Using JavaScript Object Notation (JSON) for storing and exchanging data between the client and server in web applications.', selfRating: 85 }
+      { tech: 'JSON', techDec: 'Using JavaScript Object Notation (JSON) for storing and exchanging data between the client and server in web applications.', selfRating: 85 },
+      { tech: 'React.js', techDec: 'A JavaScript library for building scalable, reusable UI components with a virtual DOM for efficient rendering.', selfRating: 60 }
     ],
     secondarySkills: [
       { tech: 'Motion', techDec: 'Motion is built on native browser APIs for a tiny filesize and superfast performance. It uses hardware acceleration for smooth and eco-friendly animations.' },
       { tech: 'BEM', techDec: 'A methodology for creating maintainable and reusable CSS by organizing code into blocks, elements, and modifiers.' },
       { tech: 'Accessibility Testing', techDec: 'Ensuring digital content is usable by all users, including those with disabilities, by following accessibility standards.' },
       { tech: 'Content Management Systems (CMS)', techDec: 'Experience working with CMS platforms like WordPress, Joomla, or Sitecore for content-driven websites.' },
-      { tech: 'React.js', techDec: 'A JavaScript library for building scalable, reusable UI components with a virtual DOM for efficient rendering.' },
       { tech: 'Wireframing', techDec: 'Creating low-fidelity designs to define the structure and functionality of a web application.' },
       { tech: 'Prototyping', techDec: 'Developing interactive models to validate and iterate on design concepts before implementation.' },
       { tech: 'UX Research', techDec: 'Studying user behavior and needs to inform better design decisions and improve user experiences.' },

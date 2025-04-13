@@ -88,7 +88,7 @@ const Projects = [
 	{
 		companyTitle: 'StayAttache Corporate Housing',
 		companyDescription: 'Just bring your luggage and a laptop. All properties are fully-furnished and include all utilities, internet and cable.',
-		companyLogo: 'src/assets/images/partners-logo/logo_1.svg',
+		companyLogo: 'https://logo.clearbit.com/stayattache.com',
 		category: "web",
 		label: "UI/UX Design & UI Development",
 		labelRole: "",
@@ -151,7 +151,7 @@ const Projects = [
 		category: "web",
 		label: "UI Development",
 		labelRole: "Developed UI components using Angular and Ionic framework, implemented progressive web app (PWA) features, optimized accessibility, and enhanced UI/UX experience for improved user interaction.",
-		companyUrl: 'https://www.leadwebapp.ai/landing/main',
+		companyUrl: 'https://leadwebapp.com/',
 		technologyInDevelopmentTags: [
 			'Angular', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
 			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',

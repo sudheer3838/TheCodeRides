@@ -20,7 +20,7 @@ const Projects = [
 		category: "web",
 		label: "UI Development",
 		labelRole: "Contributed to UI/UX design and front-end development using HTML, CSS, JS, and SCSS within an Angular and Ionic framework. Implemented Progressive Web App (PWA) features for enhanced performance and accessibility. Actively collaborated with the client and Team to gather requirements and ensure a seamless user experience in this Project.",
-		companyUrl: 'https://www.leadwebapp.ai/landing/main',
+		companyUrl: 'https://leadwebapp.com/',
 		technologyInDevelopmentTags: [
 			'Angular', 'HTML', 'CSS', 'Bootstrap', 'PWA', 'Open Graph', 'Facebook Pixel', 'CallRail', 'Google Analytics', 'Google Ads Conversion Tracking',
 			'reCAPTCHA', 'Cloudflare', 'HubSpot', 'Google Ads', 'AdRoll', 'Google Tag Manager', 'JivoChat', 'Preact', 'Lodash', 'core-js', 'iubenda',

@@ -59,7 +59,7 @@ const About = () => {
             <p>Specializing in beautiful and accessible web experiences.</p>
             <div className="btn-wrap">
               {/* <Link className='btn-primary downloadResume' to={'/about'}>Download Resume</Link> */}
-              <Link className='btn-primary downloadResume' to={'https://drive.google.com/file/d/1a70PrRdoixRlmeOObe-ViWHRgRacdaey/view?usp=sharing'} target="_blank">
+              <Link className='btn-primary downloadResume' to={'https://drive.google.com/file/d/1BbE1DDbWO3CfgP1pgVjSTUhh-nyr5L4z/view?usp=sharing'} target="_blank">
                 Download Resume
               </Link>
               <button

@@ -60,10 +60,7 @@ function PortfolioFilter() {
                         ))
                       }
                       {
-                        project.technologyInDevelopmentTags?.length > 7 ?
-                          <div className="tag">
-                            {`${project.technologyInDevelopmentTags.length - 7} +`}
-                          </div> : 'N/A'
+                        project.technologyInDevelopmentTags?.length > 7 ? <div className="tag">{`${project.technologyInDevelopmentTags.length - 7} +`}</div> : null
                       }
                     </div>
                   </div>

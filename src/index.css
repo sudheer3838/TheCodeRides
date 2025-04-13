@@ -25,28 +25,28 @@ body {
 
 @media (max-width:991px) {
 	.carousel-banner {
-		height: 100%;
-		aspect-ratio: 16 / 10;
+		height: 100% !important;
+		aspect-ratio: 16 / 10 !important;
 	}
 
 	.carousel-caption h1 {
-		font-size: 36px;
+		font-size: 36px !important;
 	}
 
 	.carousel-caption {
-		padding: 32px 24px;
-		max-width: 85%;
-		left: 0;
-		right: 0;
+		padding: 32px 24px !important;
+		max-width: 85% !important;
+		left: 0 !important;
+		right: 0 !important;
 	}
 
 	.bg-placement-bottom {
-		bottom: -165px;
-		max-width: 160px;
+		bottom: -165px !important;
+		max-width: 160px !important;
 	}
 
 	.about-me-media img {
-		display: none;
+		display: none !important;
 	}
 
 	.about-me-content {
@@ -55,21 +55,21 @@ body {
 	}
 
 	.about-me-container {
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 
 	.img-top--right-overlap {
-		max-width: 150px;
+		max-width: 150px !important;
 	}
 
 	.img-top--left {
-		top: 0;
-		left: 0;
-		max-height: 160px;
+		top: 0 !important;
+		left: 0 !important;
+		max-height: 160px !important;
 	}
 
 	.img-bottom--right {
-		max-width: 120px;
+		max-width: 120px !important;
 	}
 
 	.testimonial-carousel {
@@ -78,12 +78,12 @@ body {
 	}
 
 	.testimonial-carousel .testimonial {
-		min-width: 40%;
+		min-width: 40% !important;
 	}
 
 	.container-space {
-		padding-top: 45px;
-		padding-bottom: 45px;
+		padding-top: 45px !important;
+		padding-bottom: 45px !important;
 	}
 
 	.testimonials-logos {
@@ -96,25 +96,25 @@ body {
 	}
 
 	.projects-list-container {
-		padding: 45px 50px;
+		padding: 45px 50px !important;
 	}
 
 	.contact-us-container {
-		padding: 45px 0px 45px;
+		padding: 45px 0px 45px !important;
 	}
 
 	.contact-us-wrap p {
-		max-width: 500px;
-		margin: auto;
+		max-width: 500px !important;
+		margin: auto !important;
 	}
 
 	.tech-tag-container {
-		max-width: 100%;
+		max-width: 100% !important;
 	}
 
 	.about-me-container {
-		padding-top: 45px;
-		padding-bottom: 45px;
+		padding-top: 45px !important;
+		padding-bottom: 45px !important;
 	}
 }
 
@@ -124,20 +124,20 @@ body {
 	.img-top--right-overlap,
 	.img-top--left,
 	.img-bottom--right {
-		display: none;
+		display: none !important;
 	}
 
 	.testimonial-carousel .testimonial {
-		min-width: 80%;
+		min-width: 80% !important;
 	}
 
 	.contact-us-wrap {
-		padding: 0 15px;
+		padding: 0 15px !important;
 	}
 
 	.about-me-container {
-		padding-top: 32px;
-		padding-bottom: 32px;
+		padding-top: 32px !important;
+		padding-bottom: 32px !important;
 	}
 
 	.about-me-content {
@@ -145,7 +145,7 @@ body {
 	}
 
 	.projects-list-container {
-		padding: 32px 15px;
+		padding: 32px 15px !important;
 	}
 
 	.testimonials-container {
@@ -153,7 +153,7 @@ body {
 	}
 
 	.testimonials-logos {
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.testimonials-logos .logo-box {
@@ -164,22 +164,22 @@ body {
 	}
 
 	.navbar-brand img {
-		max-height: 45px;
+		max-height: 45px !important;
 	}
 
 	.navbar-toggler {
-		border-color: #3662cb;
-		padding: 9px;
+		border-color: #3662cb !important;
+		padding: 9px !important;
 	}
 
 	.experience-caption {
-		border-radius: 18px;
-		height: 100%;
-		position: relative;
-		width: 100%;
-		flex-wrap: wrap;
-		padding-top: 24px;
-		padding-bottom: 24px;
+		border-radius: 18px !important;
+		height: 100% !important;
+		position: relative !important;
+		width: 100% !important;
+		flex-wrap: wrap !important;
+		padding-top: 24px !important;
+		padding-bottom: 24px !important;
 	}
 
 	.experience-banner {
@@ -191,15 +191,15 @@ body {
 	}
 
 	.experience-caption .box:nth-child(2) {
-		width: 80%;
+		width: 80% !important;
 	}
 
 	.bg-light {
-		position: fixed;
-		top: 0;
-		z-index: 5;
-		width: 100%;
-		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+		position: fixed !important;
+		top: 0 !important;
+		z-index: 5 !important;
+		width: 100% !important;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2) !important;
 	}
 
 	.navbar-nav.ms-auto {
@@ -207,7 +207,7 @@ body {
 	}
 
 	.carousel.carousel-dark {
-		margin-top: 71px;
+		margin-top: 71px !important;
 	}
 
 	.carousel-banner {
@@ -215,15 +215,15 @@ body {
 	}
 
 	.carousel-dark .carousel-caption {
-		position: relative;
-		max-width: 100%;
-		border-radius: 0;
-		min-height: 480px;
+		position: relative !important;
+		max-width: 100% !important;
+		border-radius: 0 !important;
+		min-height: 480px !important;
 	}
 
 	.carousel-caption h1 {
-		font-size: 20px;
-		font-weight: bold;
-		line-height: normal;
+		font-size: 20px !important;
+		font-weight: bold !important;
+		line-height: normal !important;
 	}
 }
