@@ -42,6 +42,7 @@ const Home = () => {
                     <strong className='d-block'>Name: {list.name}</strong>
                     <strong className='d-block'>Email: {list.email}</strong>
                     <strong className='d-block'>Message: {list.clientMessage}</strong>
+                    <strong className='d-block'>{list.feedbackType}</strong>
                     {/* <strong className='d-block'>Age: {list?.age ?? 'NA'}</strong> */}
                     {/* <strong className='d-block'>Phone: {list.e_email || "No Email Found!"}</strong> */}
                   </div>

@@ -18,6 +18,8 @@
 
 .bg-light {
   background: #fff !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 2;
 }
 
 .slick-dots li {
@@ -258,4 +260,30 @@
   bottom: 16px;
   right: 16px;
   z-index: 100;
+}
+
+.feedback-button {
+  rotate: 90deg;
+
+  position: fixed;
+  right: -44px;
+  bottom: 30%;
+  padding: 15px 25px;
+  background-color: #fff; /* Button color */
+  color: #222;  
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #888;
+  padding: 12px;
+}
+
+.feedback-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  color: #fff;
 }

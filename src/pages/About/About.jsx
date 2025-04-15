@@ -12,6 +12,7 @@ import CareerTimeline from './CareerTimeline/CareerTimeline'
 import { Link } from 'react-router-dom';
 import FeaturedProject from '../../components/FeaturedProjects/FeaturedProject';
 import HireMeModal from './HireMeModal/HireMe';
+import FeedBackModal from './Feedback/FeedBack';
 const About = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date().getHours());
@@ -69,6 +70,10 @@ const About = () => {
               >
                 Hire Me
               </button>
+              <button class="feedback-button" data-bs-toggle="modal"
+                data-bs-target="#FeedBackModal">Give Feedback</button>
+
+             
             </div>
           </motion.div>
           <SocialMedia />
@@ -82,6 +87,7 @@ const About = () => {
         </button>
       </header>
       <HireMeModal />
+      <FeedBackModal />
       <section className='container container-space carrier-points'>
         <div className="achievement-container">
 

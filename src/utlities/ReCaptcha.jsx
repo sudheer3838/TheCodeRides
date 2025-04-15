@@ -1,36 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useRef, forwardRef, useImperativeHandle } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
-function ReCaptcha() {
+const ReCaptcha = forwardRef(({ setVerified, onVerify }, ref) => {
+  const recaptchaRef = useRef();
   const SITE_KEY = "6LefOworAAAAANcZzZzDOb8SNCy0gNomopjCLMnM";
-  console.log(SITE_KEY, 'your site key ');
-  
-	const [captchaValue, setCaptchaValue] = useState(null);
-  
-	const handleCaptchaChange = (value) => {
+
+  const [captchaValue, setCaptchaValue] = useState(null);
+
+  const handleChange = (value) => {
     setCaptchaValue(value);
-    console.log("Captcha value:", value);
-  };
-	const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (!captchaValue) {
-      alert("Please verify you are human!");
-      return;
+    const isValid = !!value;
+    setVerified(isValid);
+    if (isValid && typeof onVerify === "function") {
+      onVerify(); // close modal or perform success action
     }
-
-    // Proceed with form submission (API, Firebase, etc.)
-    console.log("Form submitted!");
   };
-	return (
-		<div className="recaptcha-container">
-			<ReCAPTCHA
-        state={captchaValue}
-        sitekey={SITE_KEY}
-        onChange={handleCaptchaChange}
-      />
-		</div>
-	)
-}
 
-export default ReCaptcha
+  useImperativeHandle(ref, () => ({
+    resetCaptcha: () => {
+      recaptchaRef.current?.reset();
+      setCaptchaValue(null);
+      setVerified(false);
+    },
+  }));
+
+  return (
+    <div className="recaptcha-container mt-3">
+      <ReCAPTCHA
+        sitekey={SITE_KEY}
+        onChange={handleChange}
+        ref={recaptchaRef}
+      />
+    </div>
+  );
+});
+
+export default ReCaptcha;
