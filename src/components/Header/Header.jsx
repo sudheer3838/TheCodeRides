@@ -20,7 +20,7 @@ function Header() {
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<div className="container-fluid">
 					<Link className="navbar-brand " aria-current="page" to='/'>
-						<span className='d-none'>TheCodeRides</span>
+						<span className='d-none sr-only'>TheCodeRides</span>
 						<img src={Logo} alt="Website Logo" />
 					</Link>
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

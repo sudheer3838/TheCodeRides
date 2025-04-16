@@ -18,8 +18,8 @@
 
 .bg-light {
   background: #fff !important;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    z-index: 2;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+  z-index: 2;
 }
 
 .slick-dots li {
@@ -37,17 +37,21 @@
   padding: 54px 24px 54px 24px;
   border-radius: 4px;
 }
+
 @media (max-width:767px) {
   .onboarding-page {
     padding: 36px 24px 36px 24px;
-  }  
-  .onboarding-page.project-form{
+  }
+
+  .onboarding-page.project-form {
     padding: 36px 15px 36px;
   }
-  h3{
+
+  h3 {
     font-size: 2rem !important;
   }
 }
+
 .cta {
   text-align: right;
   margin-top: 28px;
@@ -68,13 +72,14 @@
   height: auto;
   height: 100%;
   /* aspect-ratio: 12/12.3; */
-  
+
 }
+
 @media (max-width:767px) {
   .onboarding--page .onboarding--banner img {
     height: auto;
-    aspect-ratio: 16/9;    
-  } 
+    aspect-ratio: 16/9;
+  }
 }
 
 .onboarding--page .onboarding--banner {
@@ -94,11 +99,13 @@
   height: 100%;
   width: 100%;
 }
-.onboarding--banner{
+
+.onboarding--banner {
   min-height: calc(100vh - 156px);
 }
+
 @media (max-width:767px) {
-  .onboarding--banner{
+  .onboarding--banner {
     min-height: auto;
   }
 }
@@ -176,12 +183,14 @@
   background-color: #222;
   color: #fff;
 }
+
 @media (max-width:767px) {
   .admin-panel .sidebar {
     min-height: auto;
     aspect-ratio: 16/9;
   }
 }
+
 .admin-panel .sidebar ul {
   display: flex;
   flex-direction: column;
@@ -190,11 +199,13 @@
 .admin-panel .sidebar ul li:last-child {
   margin-top: 184px;
 }
+
 @media (max-width:767px) {
   .admin-panel .sidebar ul li:last-child {
     margin-top: 0;
   }
 }
+
 .admin-panel .sidebar ul a,
 .admin-panel .sidebar ul button {
   padding: 15px;
@@ -219,25 +230,29 @@
   background-color: #fff;
   width: 100%;
 }
+
 .admin-panel .sidebar ul li:last-child button:hover {
   background-color: #b50b0b;
   color: #fff;
   font-weight: 600;
 }
-.admin-panel .sidebar h5{
+
+.admin-panel .sidebar h5 {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-  
+
 @media (max-width:767px) {
-  .admin-panel .sidebar h5{
+  .admin-panel .sidebar h5 {
     display: none;
-  } 
+  }
 }
-.onboarding-page.project-form{
+
+.onboarding-page.project-form {
   max-width: 100%;
 }
-.onboarding-page.project-form .cta{
+
+.onboarding-page.project-form .cta {
   margin-top: 32px;
   display: flex;
   align-items: flex-end;
@@ -245,21 +260,24 @@
   width: 100%;
   text-align: right;
 }
-.onboarding-page.project-form .cta button{
+
+.onboarding-page.project-form .cta button {
   max-width: 240px;
 }
+
 @media (max-width:767px) {
-  .onboarding-page.project-form .cta button{
+  .onboarding-page.project-form .cta button {
     max-width: 100%;
   }
 }
 
 
 .recaptcha-container {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
+  position: relative;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feedback-button {
@@ -269,8 +287,9 @@
   right: -44px;
   bottom: 30%;
   padding: 15px 25px;
-  background-color: #fff; /* Button color */
-  color: #222;  
+  background-color: #fff;
+  /* Button color */
+  color: #222;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -283,7 +302,9 @@
 }
 
 .feedback-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #0056b3;
+  /* Darker shade on hover */
+  transform: scale(1.05);
+  /* Slight zoom effect */
   color: #fff;
 }

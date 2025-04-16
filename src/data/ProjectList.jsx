@@ -29,31 +29,37 @@ const Projects = [
 
 	},
 	{
-		companyTitle: 'KiwiTech - Innovation Partner of Choice',
-		companyDescription: 'As a leading startup ecosystem, KiwiTech not only provides information technology services for startups but also supports them with fundraising, mentoring, and go-to-market strategy. Our ecosystem is currently home to 400+ portfolio startups and 2000+.',
-		companyLogo: 'https://www.kiwitech.com/assets/version7/images/KT_Logo_white.png',
-		companyUrl: 'https://www.kiwitech.com',
-		categoryLabel: 'Hi-Tech',
-		categoryLabelShortDesc: 'KiwiTech.com (Startup Tech Accelerator) → Hi-Tech & Innovation Solutions',
-		category: "uiux",
-		label: "UI Development",
-		labelRole: "",
-		technologyInDevelopmentTags: [
-			'WordPress', 'PHP', 'MySQL', 'CodeIgniter', 'HTML', 'CSS', 'Bootstrap 4.5.3', 'Yoast SEO (19.9)', 'Apache HTTP Server',
-			'Google Tag Manager', 'reCAPTCHA', 'JavaScript libraries', 'Isotope', 'JS', 'Google Analytics'
+		"companyTitle": "Rohrer & Associates - Agent Portal",
+		"companyDescription": "Rohrer & Associates offers comprehensive insurance solutions and digital tools for agents through their online portal. The project focused on delivering a WCAG-compliant, responsive web platform that serves as a resource hub for agents to access forms, quoting tools, carrier info, and educational materials. It emphasizes clarity, ease of use, and cross-platform performance, supporting both desktop and mobile users.",
+		"companyLogo": "https://mc-ac55a1f6-1c60-4eb1-934d-3272-cdn-endpoint.azureedge.net/-/media/Images/Rohrer/Images/Logo/Header_Logo.png?rev=519f0bae41bb4506a57a75abd26184dd&extension=avif%2cwebp&h=109&w=282&la=en&hash=70EF7A4F7DE527ED503D2B1DEFF6A32E",
+		"companyUrl": "https://rohrer-testing.ap-sandbox.com",
+		"category": "uiux",
+		"label": "UI/UX Design & UI Development",
+		"labelRole": "UI/UX Designer, UI Developer",
+		"technologyInDevelopmentTags": [
+			"Figma",
+			"Wireframes",
+			"HTML",
+			"CSS",
+			"WCAG 2.1",
+			"Responsive Design",
+			"User Research",
+			"Prototyping",
+			"Accessibility Audit",
+			"JavaScript",
+			"Sitecore",
+			"Sitecore CMS",
+			"Cross-browser Testing"
 		],
-		details: {
-			overview: "KiwiTech is a pioneering startup ecosystem offering a full suite of technology services, fundraising support, and go-to-market strategies for startups across the globe. With over 400 portfolio companies and a vast network of investors, mentors, and strategic partners, KiwiTech aims to fuel innovation and entrepreneurship. The corporate website serves as a central hub to showcase services, success stories, and investor relationships, with a strong focus on accessibility, engagement, and scalability.",
-
-			roleAndResponsibility: "Acted as both a UI/UX Designer and Frontend Developer. Collaborated with product and marketing teams to define a unified visual language and built modular UI components using HTML5, CSS3, Bootstrap, and custom JavaScript. Designed mobile-first wireframes and interactive prototypes that guided development. Applied accessibility standards (WCAG 2.1) to ensure inclusivity, optimized performance across browsers, and worked closely with QA to ensure seamless interactions and visual consistency.",
-
-			caseStudy: "The objective was to reposition KiwiTech’s digital presence to reflect its stature as an innovation enabler and attract both startups and investors. The project involved a full website redesign, including sitemap restructuring, enhanced user journeys, and UI prototyping. We introduced a scalable design system with reusable components that enabled non-technical teams to update content without breaking layout integrity. Usability tests were conducted with real users to validate navigation and interaction flows.",
-
-			challenge: "The challenge was to present a broad range of services—from startup accelerators to enterprise solutions—under a single, cohesive UX. We needed to ensure a balance between a modern, tech-forward aesthetic and a professional, business-oriented tone. Achieving fast load times while maintaining rich visual elements and responsiveness was another key hurdle, especially for mobile and tablet users accessing data-heavy pages.",
-
-			resultAndAchievements: "Successfully delivered a modern, WCAG-compliant UI that reflects KiwiTech’s brand identity and supports future growth. The modular HTML/CSS structure reduced content update cycles by 40%, while the intuitive UX design contributed to a 20% drop in bounce rate and improved average session duration. The design system created during this project is now being leveraged for multiple KiwiTech sub-sites and internal platforms, amplifying its value across the organization."
+		"categoryLabel": "Insurance & Agent Tools",
+		"categoryLabelShortDesc": "Rohrer Agent Portal (rohrer-testing.ap-sandbox.com) \u2192 Insurance & Agent Resource Hub",
+		"details": {
+			"overview": "The Rohrer Agent Portal is a resource-rich platform developed for insurance agents, providing streamlined access to quoting tools, business forms, licensing information, and educational resources. Built with a focus on accessibility and usability, the platform serves as a digital gateway for insurance professionals, supporting a wide range of needs and interactions.",
+			"roleAndResponsibility": "Worked as both UI/UX Designer and UI Developer. Gathered requirements directly from the client, designed wireframes and clickable prototypes using Figma, and implemented feedback iteratively. Developed the front-end using semantic HTML and WCAG-compliant CSS, ensuring accessibility for screen readers and keyboard navigation. Maintained consistency in layout and branding, and conducted usability testing for validation.",
+			"caseStudy": "The client needed a modern portal that would simplify complex workflows and provide agents with quick access to tools and documents. The goal was to deliver a platform that was both visually clean and operationally intuitive, allowing for efficient navigation across a large ecosystem of forms, tools, and resources. This required extensive planning, hierarchy design, and user testing cycles.",
+			"challenge": "The main challenge was balancing a large amount of structured content with an uncluttered and accessible design. The portal had to be compatible with all major browsers and screen sizes while delivering a seamless user experience. Frequent client feedback required fast iteration and meticulous attention to both design and code-level adjustments.",
+			"resultAndAchievements": "Delivered a highly usable and WCAG 2.1-compliant agent portal with optimized layout and clear navigation structure. The final product improved user satisfaction, reduced support requests, and received direct appreciation from the client for the design clarity and responsiveness. The portal is now used by hundreds of agents for day-to-day tasks, streamlining operations and communications."
 		}
-
 	},
 	{
 		companyTitle: 'LVH Global',
@@ -142,6 +148,33 @@ const Projects = [
 			resultAndAchievements: "Successfully redesigned and implemented a mobile-first, WCAG-compliant ticket booking flow that increased mobile conversions by 22% post-launch. Accessibility audits showed significant improvement, and the platform experienced a measurable drop in user support requests related to booking confusion. The design language and UX patterns established in this project were later extended to promotional pages and partner portals, resulting in a more unified and user-centric experience across the OurBus ecosystem."
 		}
 
+
+	},
+	{
+		companyTitle: 'KiwiTech - Innovation Partner of Choice',
+		companyDescription: 'As a leading startup ecosystem, KiwiTech not only provides information technology services for startups but also supports them with fundraising, mentoring, and go-to-market strategy. Our ecosystem is currently home to 400+ portfolio startups and 2000+.',
+		companyLogo: 'https://www.kiwitech.com/assets/version7/images/KT_Logo_white.png',
+		companyUrl: 'https://www.kiwitech.com',
+		categoryLabel: 'Hi-Tech',
+		categoryLabelShortDesc: 'KiwiTech.com (Startup Tech Accelerator) → Hi-Tech & Innovation Solutions',
+		category: "uiux",
+		label: "UI Development",
+		labelRole: "",
+		technologyInDevelopmentTags: [
+			'WordPress', 'PHP', 'MySQL', 'CodeIgniter', 'HTML', 'CSS', 'Bootstrap 4.5.3', 'Yoast SEO (19.9)', 'Apache HTTP Server',
+			'Google Tag Manager', 'reCAPTCHA', 'JavaScript libraries', 'Isotope', 'JS', 'Google Analytics'
+		],
+		details: {
+			overview: "KiwiTech is a pioneering startup ecosystem offering a full suite of technology services, fundraising support, and go-to-market strategies for startups across the globe. With over 400 portfolio companies and a vast network of investors, mentors, and strategic partners, KiwiTech aims to fuel innovation and entrepreneurship. The corporate website serves as a central hub to showcase services, success stories, and investor relationships, with a strong focus on accessibility, engagement, and scalability.",
+
+			roleAndResponsibility: "Acted as both a UI/UX Designer and Frontend Developer. Collaborated with product and marketing teams to define a unified visual language and built modular UI components using HTML5, CSS3, Bootstrap, and custom JavaScript. Designed mobile-first wireframes and interactive prototypes that guided development. Applied accessibility standards (WCAG 2.1) to ensure inclusivity, optimized performance across browsers, and worked closely with QA to ensure seamless interactions and visual consistency.",
+
+			caseStudy: "The objective was to reposition KiwiTech’s digital presence to reflect its stature as an innovation enabler and attract both startups and investors. The project involved a full website redesign, including sitemap restructuring, enhanced user journeys, and UI prototyping. We introduced a scalable design system with reusable components that enabled non-technical teams to update content without breaking layout integrity. Usability tests were conducted with real users to validate navigation and interaction flows.",
+
+			challenge: "The challenge was to present a broad range of services—from startup accelerators to enterprise solutions—under a single, cohesive UX. We needed to ensure a balance between a modern, tech-forward aesthetic and a professional, business-oriented tone. Achieving fast load times while maintaining rich visual elements and responsiveness was another key hurdle, especially for mobile and tablet users accessing data-heavy pages.",
+
+			resultAndAchievements: "Successfully delivered a modern, WCAG-compliant UI that reflects KiwiTech’s brand identity and supports future growth. The modular HTML/CSS structure reduced content update cycles by 40%, while the intuitive UX design contributed to a 20% drop in bounce rate and improved average session duration. The design system created during this project is now being leveraged for multiple KiwiTech sub-sites and internal platforms, amplifying its value across the organization."
+		}
 
 	},
 	{
@@ -334,7 +367,7 @@ const Projects = [
 		label: "UI Development & React Development",
 		labelRole: "",
 		technologyInDevelopmentTags: [
-			'React JS','ReactStrap', 'Context API', 'Hooks','FireBase','HTML', 'CSS', 'Bootstrap', 'Netlify', 'reCAPTCHA', 'Lottie animation', 'Motion JS', 'Google Tag Manager',  'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'React JS', 'ReactStrap', 'Context API', 'Hooks', 'FireBase', 'HTML', 'CSS', 'Bootstrap', 'Netlify', 'reCAPTCHA', 'Lottie animation', 'Motion JS', 'Google Tag Manager', 'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
 		],
 		categoryLabel: 'Media & Entertainment',
 		categoryLabelShortDesc: 'heCoderides.netlify.app (Personal Portfolio & Project Showcase) → Social & Entertainment Media',
@@ -349,9 +382,6 @@ const Projects = [
 
 			resultAndAchievements: "Successfully launched a polished, scalable, and WCAG-compliant portfolio that reflects professional branding and technical excellence. The platform saw an increase in recruiter engagement and received praise for its clarity, usability, and unique project filtering experience. Achieved Lighthouse scores of 95+ across all core metrics, with strong SEO indexing across project pages. The feedback system encouraged ongoing testimonials from clients and collaborators. The site continues to serve as a centralized, self-managed digital presence — designed, built, and deployed entirely independently."
 		}
-
-
-
 	}, {
 		companyTitle: 'Canomiks',
 		companyDescription: 'N/A',

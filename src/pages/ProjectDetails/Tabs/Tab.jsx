@@ -33,6 +33,7 @@ const Tabs = ({ ProjectDetails }) => {
 
 
 
+  console.log(data);
 
   return (
     <div className="tabs-container">
@@ -75,6 +76,13 @@ const Tabs = ({ ProjectDetails }) => {
               />
             </div>
           </div>
+        </div>
+        <div className="design-project's--slider">
+          {/* <h1>
+        {
+          ProjectDetails.companyTitle === "Rohrer & Associates - Agent Portal" ? 'Yes' : 'N/A'
+        }
+        </h1> */}
         </div>
 
         <div style={{ minHeight: "160px" }} ref={tabRefs.role} id="role" className="tab-pane fade-in">
