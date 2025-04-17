@@ -5,7 +5,7 @@ import SocialMedia from '../../../utlities/SocialMedia/SocialMedia';
 function Welcome() {
   return (
     <header className="portifolio-header">
-      {/* <img class="profile-background-image" alt="Background Image" src="https://media.licdn.com/dms/image/v2/D5616AQECRCucS-3YbA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1725727999534?e=1744848000&amp;v=beta&amp;t=3JDWzMIzxJwDRI1cvWXSZ0UBpoKw5-5xA94eUWqQMEc" /> */}
+      {/* <img className="profile-background-image" alt="Background Image" src="https://media.licdn.com/dms/image/v2/D5616AQECRCucS-3YbA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1725727999534?e=1744848000&amp;v=beta&amp;t=3JDWzMIzxJwDRI1cvWXSZ0UBpoKw5-5xA94eUWqQMEc" /> */}
       
       <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         I'm Sudheer,<br />A Frontend Developer & UI/UX Designer

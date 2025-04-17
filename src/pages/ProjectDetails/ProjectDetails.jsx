@@ -23,7 +23,7 @@ function ProjectDetails() {
 					onClick={handleBack}
 					aria-label="Go back to the previous page"
 				>
-					← Back to project
+					<span className='btn-icon'>←</span> <span className="btn-txt">Back to project</span>
 				</button>
 				<div className="projectDetailView">
 					<iframe className='live-project-iframe' src={project?.companyUrl ?? 'URL not found!'}></iframe>

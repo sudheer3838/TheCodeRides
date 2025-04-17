@@ -70,7 +70,7 @@ const About = () => {
               >
                 Hire Me
               </button>
-              <button class="feedback-button" data-bs-toggle="modal"
+              <button className="feedback-button" data-bs-toggle="modal"
                 data-bs-target="#FeedBackModal">Give Feedback</button>
 
              
