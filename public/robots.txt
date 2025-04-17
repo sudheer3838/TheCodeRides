@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thecoderides.netlify.app/sitemap.xml
