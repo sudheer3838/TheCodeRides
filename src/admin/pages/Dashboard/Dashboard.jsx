@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link, Links, useLocation, useNavigate } from 'react-router-dom';
-import { FireBaseAppGloble } from '../../../../context/Firebase'
+import { FireBaseAppGloble } from '../../../../services/context/Firebase'
 import { getAuth, signOut } from "firebase/auth";
-import { useFireBase } from '../../../../context/Firebase'
+import { useFireBase } from '../../../../services/context/Firebase'
 import { AddProject } from '../AddProjects/AddProject';
 
 

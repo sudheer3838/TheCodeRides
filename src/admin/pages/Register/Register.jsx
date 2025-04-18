@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useFireBase } from '../../../../context/Firebase'
+import { useFireBase } from '../../../../services/context/Firebase'
 import { useNavigate } from 'react-router-dom'
 
 function Register(props) {

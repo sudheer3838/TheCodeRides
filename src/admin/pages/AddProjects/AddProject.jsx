@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {useFireBase} from '../../../../context/Firebase'
+import {useFireBase} from '../../../../services/context/Firebase'
 export const AddProject = () => {
 	const [proName, setProName] = useState("")
 	const [proDesc, setProDesc] = useState("")

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FireBaseProvider, useFireBase } from '../../context/Firebase'
+import { FireBaseProvider, useFireBase } from '../../services/context/Firebase'
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import { useState } from 'react';
