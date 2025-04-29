@@ -49,7 +49,8 @@ const Projects = [
 			"JavaScript",
 			"Sitecore",
 			"Sitecore CMS",
-			"Cross-browser Testing"
+			"Cross-browser Testing",
+			'A/B testing'
 		],
 		"categoryLabel": "Insurance & Agent Tools",
 		"categoryLabelShortDesc": "Rohrer Agent Portal (rohrer-testing.ap-sandbox.com) \u2192 Insurance & Agent Resource Hub",

@@ -1,24 +1,30 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useEffect, useState } from 'react';
+import CreateProjects from '../components/CreateProjects/Create'
 import axios from 'axios';
-import { setClients, setLoading, setError } from '../redux/clientSlice';
 import Loader from '../utlities/Loader/Loader';
 
 const Home = () => {
-  const dispatch = useDispatch();
-  const { clientData, loading, error } = useSelector((state) => state.clients);
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   useEffect(() => {
-    dispatch(setLoading());
+    // Make a GET request using axios
     axios.get('https://67a4623231d0d3a6b78625a6.mockapi.io/clientList')
-      .then(response => {
-        dispatch(setClients(response.data));
+      .then((response) => {
+        setData(response.data); // Set the data state with the response data
+        setLoading(false); // Set loading to false once data is received
+        console.log(data);
+
       })
-      .catch(error => {
-        dispatch(setError(error.message));
+      .catch((error) => {
+        setError(error.message); // Set error message in case of an error
+        setLoading(false);
       });
-  }, [dispatch]);
+  }, []); // Empty dependency array means the effect will run once when the component mounts
+
   if (loading) return <Loader />;
-  if (error) return <h2>Error: {error}</h2>;
+  if (error) return <div>Error: {error}</div>;
 
   return (
     <div className='container pt-5 pb-5'>
@@ -27,7 +33,7 @@ const Home = () => {
           <h1 className='pb-5 pt-1'>Client List</h1>
           <div className="row">
             {
-              clientData.map((list, indexKey) => (
+              data.map((list, indexKey) => (
                 <div className="col-lg-12 pb-3" key={indexKey + 1}>
                   <div className="card p-4 pb-3 pt-3">
                     {/* <strong className='d-block'>Name: {list.id}</strong> */}
