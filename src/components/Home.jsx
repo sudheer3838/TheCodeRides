@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { setClients, setLoading, setError } from '../redux/clientSlice';
 import Loader from '../utlities/Loader/Loader';
-
+const BASE_URL = process.env.REACT_APP_API_BASE_URL
 const Home = () => {
   const dispatch = useDispatch();
   const { clientData, loading, error } = useSelector((state) => state.clients);
