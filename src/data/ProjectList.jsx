@@ -158,7 +158,7 @@ const Projects = [
 		companyUrl: 'https://www.kiwitech.com',
 		categoryLabel: 'Hi-Tech',
 		categoryLabelShortDesc: 'KiwiTech.com (Startup Tech Accelerator) → Hi-Tech & Innovation Solutions',
-		category: "uiux",
+		category: "web",
 		label: "UI Development",
 		labelRole: "",
 		technologyInDevelopmentTags: [
@@ -182,8 +182,8 @@ const Projects = [
 		companyTitle: 'LeadWeb App',
 		companyDescription: 'LeadWeb app instantly delivers leads to your device and uses Artificial intelligence to set the appointment. Additionally we helping eliminate access issues to new patients as well using our platform.',
 		companyLogo: 'https://leadwebapp.com/wp-content/uploads/2022/03/1024x1024-transparent-bg-60x60.png',
-		category: "web",
-		label: "UI Development",
+		category: "uiux",
+		label: "UI/UX Design & UI Development",
 		labelRole: "Developed UI components using Angular and Ionic framework, implemented progressive web app (PWA) features, optimized accessibility, and enhanced UI/UX experience for improved user interaction.",
 		companyUrl: 'https://leadwebapp.com/',
 		technologyInDevelopmentTags: [
@@ -212,7 +212,7 @@ const Projects = [
 		companyDescription: 'Enrichly is a pioneering platform dedicated to enhancing self-esteem in children across the globe. Having impacted over 200,000 children, Enrichlys mission is to make self-esteem development accessible to youth and families worldwide. By integrating innovative technology with a holistic approach, Enrichly seeks to unlock the boundless potential of individuals, fostering resilience and guiding them toward a future brimming with confidence and opportunity.',
 		companyLogo: 'https://static.wixstatic.com/media/348041_198fb0229a49403abc8e8af158bdcbd0~mv2.png/v1/crop/x_0,y_960,w_3000,h_1070/fill/w_300,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/348041_198fb0229a49403abc8e8af158bdcbd0~mv2.png',
 		category: "react",
-		label: "UI Development",
+		label: "UI/UX Design & UI Development",
 		labelRole: "Designed and developed UI components using React, optimized the frontend for responsiveness and accessibility, and contributed to UI/UX enhancements for better engagement and usability.",
 		companyUrl: 'https://www.enrichly.world/',
 		categoryLabel: 'Life Sciences',
@@ -272,7 +272,7 @@ const Projects = [
 		companyTitle: 'Ventract',
 		companyDescription: 'Property Management Technology, We Do The Work For You!',
 		companyLogo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHITpA9olBoZQ/company-logo_200_200/company-logo_200_200/0/1633003105625/ventract_logo?e=1746057600&v=beta&t=POEIyJ-Z4zT3H-ujGEZUU3M24y_62Udg8SrAR2-hOgk',
-		category: "uiux",
+		category: "web",
 		label: "UI/UX Design & UI Development",
 		labelRole: "",
 		companyUrl: 'https://www.ventract.com/',
@@ -368,7 +368,7 @@ const Projects = [
 		label: "UI Development & React Development",
 		labelRole: "",
 		technologyInDevelopmentTags: [
-			'React JS', 'ReactStrap', 'Context API', 'Hooks', 'FireBase', 'HTML', 'CSS', 'Bootstrap', 'Netlify', 'reCAPTCHA', 'Lottie animation', 'Motion JS', 'Google Tag Manager', 'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
+			'React JS', 'ReactStrap', 'UI/UX', 'Context API', 'Hooks', 'FireBase', 'HTML', 'CSS', 'Bootstrap', 'Netlify', 'reCAPTCHA', 'Lottie animation', 'Motion JS', 'Google Tag Manager', 'Json', 'Cloud', 'Google Analytics', 'Google Ads Conversion Tracking',
 		],
 		categoryLabel: 'Media & Entertainment',
 		categoryLabelShortDesc: 'heCoderides.netlify.app (Personal Portfolio & Project Showcase) → Social & Entertainment Media',
@@ -605,7 +605,7 @@ const Projects = [
 		labelRole: "Zeplin to HTML Conversion and development of fully responsive websites. Urban FT is one of the Banking and Payment Industry’s leading and fastest-growing providers of AI-powered mobile imaging and process automation solutions",
 		companyUrl: 'https://www.urbanft.com/',
 		technologyInDevelopmentTags: [
-			'Material Design', 'Angular', "Zeplin", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
+			'Material Design', 'UI UX', 'Angular', "Zeplin", 'HTML5', 'CSS3', 'Less', "Bootstrap", "Jquery", 'ROR'
 		],
 		categoryLabel: 'Banking, Financial Services & Insurance (BFSI)',
 		categoryLabelShortDesc: 'UrbanFT.com (Financial Technology) → FinTech Solutions',
@@ -1006,10 +1006,11 @@ const Projects = [
 	{
 		"companyTitle": "Haldi Skin",
 		"companyLogo": "https://logo.clearbit.com/haldiskin.com",
-		"label": "UI Development",
+		"label": "UI/UX Design & UI Development",
+		category: "uiux",
 		"companyUrl": "https://www.haldiskin.com/",
 		technologyInDevelopmentTags: [
-			'HTML', 'CSS', 'Bootstrap', 'Pythna', 'pixel perfect design'
+			'HTML', 'UI UX', 'CSS', 'Bootstrap', 'Pythna', 'pixel perfect design'
 		],
 		categoryLabel: 'Consumer Goods',
 		categoryLabelShortDesc: 'HaldiSkin.com (Beauty & Skincare) → Consumer Beauty Products',
@@ -1042,8 +1043,108 @@ const Projects = [
 			resultAndAchievements: "Deployed an elegant, accessible UI that increased coaching participation and improved HR reporting through intuitive design and interaction."
 		}
 
-	}
+	},
 
+	{
+		companyTitle: 'Jabbrrbox',
+		companyDescription: 'Jabbrrbox is a cutting-edge platform providing on-demand, fully-equipped workspaces in public locations like airports, offering a private and tech-enabled environment for remote work, video conferencing, and productivity. The web platform serves as a central interface for users to discover, reserve, and manage their work sessions efficiently. Built with a strong focus on user experience, the platform emphasizes accessibility, seamless booking flows, and mobile responsiveness to serve a dynamic, on-the-go audience.',
+		companyLogo: 'https://qa.jabbrrbox.com/_next/static/media/logo.acf14718.svg',
+		companyUrl: 'https://qa.jabbrrbox.com',
+		category: "react",
+		label: "UI/UX Design, HTML UI Development & React Integration",
+		labelRole: "Collaborative UI/UX Contributor & Frontend Developer",
+		technologyInDevelopmentTags: [
+			'HTML5', 'UI UX', 'CSS3', 'JavaScript', 'React JS', 'Bootstrap', 'WCAG', 'Responsive Web Design', 'API Integration', 'JSON', 'Accessibility Standards', 'UX Collaboration', 'Design Systems'
+		],
+		categoryLabel: 'Travel & Hospitality',
+		categoryLabelShortDesc: 'Jabbrrbox.com (Smart Workspace Booking) → Travel Infrastructure & Productivity Solutions',
+		details: {
+			overview: "Jabbrrbox provides high-tech, reservable workspaces for mobile professionals in public environments. The digital platform enables seamless scheduling, secure access management, and location-based searching of available booths. The website's design and frontend implementation prioritize intuitive navigation, real-time data interaction, and responsive layouts tailored for users in transit or needing quick booking access.",
+
+			roleAndResponsibility: "Collaborated with UI/UX design teammates to conceptualize and prototype user flows that simplified booth reservation, account management, and customer support processes. Translated approved designs into accessible and responsive HTML/CSS templates, while also contributing to the React-based components for real-time API data fetching and rendering. Assisted in implementing consistent design language, reusable interface patterns, and responsive breakpoints to ensure mobile-first usability. Supported QA and iteration cycles focused on usability and performance.",
+
+			caseStudy: "The main objective was to redesign and enhance the Jabbrrbox user portal to offer a frictionless booking experience while aligning with accessibility standards and modern visual identity. The team focused on user research to map out booking pain points and introduced intuitive interactions across the journey — from booth discovery to session checkout. The UI was refined to minimize distractions, improve focus areas like time slot selection, and provide clear confirmation feedback. Development tasks included integrating dynamic booth data via APIs and maintaining layout integrity across screen sizes and devices.",
+
+			challenge: "Balancing visually engaging UI with performance and accessibility compliance posed a creative challenge. Coordinating across the design and frontend teams required clear component specs and a shared design system. Implementing certain React interactions — such as real-time booth availability — needed synchronization with API logic and careful state management. Ensuring pixel-perfect implementation of the design system across all device views while adapting to live backend updates was also a key complexity.",
+
+			resultAndAchievements: "Contributed to launching a sleek and performance-optimized workspace booking experience that aligned with Jabbrrbox’s premium brand and accessibility goals. The new design significantly improved user engagement and reduced drop-off during the booking flow. Stakeholders reported improved usability scores and fewer support queries post-launch. The updated web platform reflects a balance of design excellence and functional clarity, supporting the company’s mission to redefine workspaces in public places."
+		}
+	},
+	{
+		companyTitle: 'DinDin',
+		companyDescription: 'DinDin is a modern dining concierge platform that connects users with curated private chefs and unique culinary experiences. The platform simplifies the booking of personalized in-home dining events, blending hospitality, technology, and convenience. Designed with a user-first philosophy, DinDin offers intuitive browsing, responsive design, and an inclusive user experience aligned with accessibility standards. The site combines visual elegance with practical functionality for seamless chef discovery, event planning, and communication.',
+		companyLogo: 'https://www.eatdindin.com/static/media/logo.f9c055acbffbd9ae3ec2b3766e6bb922.svg',
+		companyUrl: 'https://www.eatdindin.com',
+		category: "react",
+		label: "UI/UX Design, HTML UI Development & Accessibility Implementation",
+		labelRole: "Frontend Developer & Accessibility Specialist",
+		technologyInDevelopmentTags: [
+			'HTML5', 'UI UX', 'CSS3', 'JavaScript', 'React JS', 'Bootstrap', 'WCAG 2.1', 'Responsive Web Design', 'ARIA Roles', 'Keyboard Navigation', 'Alt Text Optimization', 'SEO Meta Tags', 'Screen Reader Testing', 'Form Validation', 'Design Systems'
+		],
+		categoryLabel: 'Hospitality & Lifestyle',
+		categoryLabelShortDesc: 'EatDinDin.com (Private Chef Dining Platform) → Culinary Experience & Lifestyle Marketplace',
+		details: {
+			overview: "DinDin is a personalized private chef booking platform designed to elevate in-home dining. The digital interface enables users to explore chefs, customize events, and book unique culinary experiences tailored to dietary needs and preferences. The site emphasizes an elegant, responsive design with a deep focus on accessibility compliance to ensure inclusivity for all user types, including those using assistive technologies.",
+
+			roleAndResponsibility: "Worked closely with the design and development team to implement fully responsive and accessible HTML structures. Integrated key frontend components in React, ensuring semantic HTML, color contrast compliance, keyboard navigation, and screen reader support. Applied ARIA attributes, alt tags, and proper form labeling to meet WCAG 2.1 standards. Collaborated on user flow enhancements to simplify navigation and promote better usability across devices. Contributed to mobile performance optimization and meta tag structuring for SEO.",
+
+			caseStudy: "DinDin’s goal was to provide a luxurious yet inclusive culinary booking experience. From initial chef discovery to event confirmation, the platform needed to be visually appealing, functionally intuitive, and accessible to a broad user base. Through iterative design validation and development testing, the interface was shaped to deliver clarity in booking, smooth chef profile interaction, and a personalized feel. Accessibility checkpoints were integrated into each development sprint, including Lighthouse audits, contrast tests, and screen reader simulations.",
+
+			challenge: "Ensuring WCAG 2.1 compliance while preserving the visual finesse of the platform was a central challenge. Building keyboard-friendly navigation that felt seamless required granular attention to tab order and focus states. Coordinating between design vision and accessibility needs meant redefining some UI interactions, especially for modals and form-heavy sections. React component structure also needed updates to support semantic markup without compromising performance or load speed.",
+
+			resultAndAchievements: "Successfully delivered a WCAG-compliant, high-performing frontend that blended luxury aesthetics with functional inclusivity. Accessibility improvements led to smoother user journeys and a broader user reach. Post-launch reviews highlighted better mobile usability, improved engagement rates, and increased visibility in search indexing due to SEO and metadata enhancements. The project set a new baseline for accessible design implementation within lifestyle and event-based platforms."
+		}
+	},
+	{
+		companyTitle: 'WhatToTrust',
+		companyDescription: 'WhatToTrust is a digital platform dedicated to increasing transparency and credibility around product claims, brand promises, and ethical business practices. The platform empowers consumers by offering verified ratings, certification tracking, and detailed product insights. Designed with clarity and user trust in mind, WhatToTrust uses data-driven mechanisms to evaluate brands and products across environmental, social, and health dimensions, offering a user-friendly interface that supports both exploration and informed decision-making.',
+		companyLogo: 'https://stage-frontend.whattotrust.com/_next/static/media/logo.1702e231.png',
+		companyUrl: 'https://stage-frontend.whattotrust.com',
+		category: "react",
+		label: "UI/UX Design, HTML UI Development & React Component Integration",
+		labelRole: "UI/UX Contributor & Frontend Developer",
+		technologyInDevelopmentTags: [
+			'React JS', 'UI UX', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'WCAG 2.1 (Optional)', 'Responsive Web Design', 'Modular Components', 'API Integration', 'Dynamic Content Rendering', 'JSON', 'SEO Optimization', 'Tag Management'
+		],
+		categoryLabel: 'Sustainability & Consumer Tech',
+		categoryLabelShortDesc: 'WhatToTrust.com (Product & Brand Rating Platform) → Ethical Ratings & Transparency Tech',
+		details: {
+			overview: "WhatToTrust is a consumer-focused transparency platform that evaluates and verifies brand and product claims through research-backed scoring systems. The website acts as a powerful research tool, helping users make informed decisions by analyzing products based on health, environmental impact, and company ethics. The digital experience focuses on clean data presentation, intuitive navigation, and trust-building visual design.",
+
+			roleAndResponsibility: "Contributed to designing wireframes and translating them into pixel-perfect HTML and CSS components. Assisted in developing reusable React components for dynamic data rendering from APIs. Ensured content structure and layout were optimized for accessibility and responsiveness. Worked with JSON-driven product and brand modules, integrating tab-based layouts, filter components, and conditional rendering logic. Supported implementation of SEO-friendly tags and performance best practices for faster page loads.",
+
+			caseStudy: "The core challenge for WhatToTrust was to present credibility-based data in a way that felt both simple and powerful. The platform needed to allow users to compare certifications, filter ethical tags, and view detailed breakdowns of product claims — all within a structured, digestible layout. Through collaborative prototyping, user flow mapping, and modular frontend architecture, the interface was crafted to reflect both integrity and usability. Custom components were built to support dynamic tag generation, info modals, and sortable rating cards.",
+
+			challenge: "Presenting layered information without overwhelming the user was a key design and development challenge. Structuring large sets of rating and certification data into clean, accessible sections required attention to hierarchy, spacing, and contrast. On the React side, ensuring components were flexible and data-aware without bloating the codebase was a priority. Building scalable filter logic and integrating data pipelines via API in a staged environment also demanded frequent testing and debugging.",
+
+			resultAndAchievements: "Launched a responsive, data-rich frontend that effectively communicates the mission of transparency and ethical awareness. The platform's modular design allows for scalability across additional product categories and certification types. The UI/UX contributed to improved user retention, better information recall, and more consistent engagement from ethically-minded consumers. The success of this project reinforced the importance of trust, accessibility, and simplicity in digital platforms dealing with complex data."
+		}
+	},
+	{
+		companyTitle: 'DuellThat',
+		companyDescription: 'DuellThat is an interactive social competition platform where users engage in fun, skill-based challenges and showcase talents through side-by-side video battles. Designed to foster creative expression and audience participation, the platform blends entertainment, community voting, and gamified features in a modern, responsive interface. With a bold visual identity and fluid user interactions, DuellThat offers a seamless experience from video upload to live duels and winner announcements.',
+		companyLogo: 'https://duellthat.com/wp-content/uploads/2025/02/Duelly_Logo_FullColor-white-header.png',
+		companyUrl: 'https://duellthat.com',
+		category: "react",
+		label: "UI/UX Design, HTML/CSS Development & Interactive React Components",
+		labelRole: "Frontend Designer & Developer (UI/UX, React, Animations)",
+		technologyInDevelopmentTags: [
+			'React JS', 'UI UX', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'WCAG Considerations', 'Lottie Animations', 'Responsive Layouts', 'Video Player Integration', 'API Handling', 'Gamification UI', 'SEO Optimization', 'Micro-Interactions'
+		],
+		categoryLabel: 'Media & Entertainment',
+		categoryLabelShortDesc: 'DuellThat.com (Social Video Challenge Platform) → Entertainment & User-Generated Content',
+		details: {
+			overview: "DuellThat is a next-gen video-based social competition platform that encourages users to upload and participate in duels — short, themed video battles judged by the public. The interface emphasizes engagement, real-time feedback, and an immersive mobile-first experience. The platform uses vibrant visuals, intuitive flow, and gamified interactions to attract and retain creators and viewers alike.",
+
+			roleAndResponsibility: "Worked alongside designers and developers to bring high-fidelity wireframes to life using HTML, CSS, and JavaScript. Developed key UI components in React, including duel cards, video battle views, voting modules, and user profiles. Implemented smooth animations using Lottie and ensured responsiveness across mobile and desktop. Participated in planning user flows for uploading, browsing, and voting, while optimizing interactions for speed and simplicity. Contributed to accessibility checks and user testing for clear visual hierarchy and navigability.",
+
+			caseStudy: "The core concept of DuellThat revolved around side-by-side video battles, where layout, transitions, and timing were crucial to the user experience. We focused on creating an engaging battle-view structure that felt fun and competitive without being overwhelming. UI components like duel previews, countdowns, and result screens were built to encourage interaction and replays. React’s modular design allowed us to manage video content, voting state, and dynamic display logic smoothly, while maintaining brand cohesion and performance integrity.",
+
+			challenge: "The biggest challenges included synchronizing video playback and UI elements during duels, managing large media content without affecting performance, and designing a layout that worked equally well for creators and voters. Handling dynamic data like user uploads, votes, and duel timers in React required thoughtful component structure and event handling. Animation consistency and mobile responsiveness had to be tested and optimized repeatedly to deliver a high-quality experience.",
+
+			resultAndAchievements: "Successfully delivered an interactive and visually striking frontend for a unique user-generated content platform. DuellThat launched with strong user feedback highlighting ease of use, sleek interactions, and excitement around duel engagement. Gamification elements and video-centric design led to high content sharing and return visits. Accessibility and responsive design ensured a wide user reach across devices, reinforcing DuellThat’s position as an emerging entertainment tech solution."
+		}
+	}
 ];
 
 export default Projects;

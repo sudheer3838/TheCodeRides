@@ -5,7 +5,17 @@ const aboutUsData = [
     aboutText:
       "Welcome to a platform dedicated to UI developers passionate about creating intuitive, engaging, and visually stunning interfaces. Explore cutting-edge tools, insightful tutorials, and industry trends that empower developers to design user-friendly experiences. Whether you're building from scratch or refining existing designs, this is your ultimate resource for mastering the art and science of user interface development.",
     primarySkills: [
-      { tech: 'HTML5', techDec: 'HTML5 introduces semantic elements, improved multimedia capabilities, and robust APIs for modern web development.', selfRating: 95 },
+      { tech: 'React.js', techDec: 'A JavaScript library for building scalable, reusable UI components with a virtual DOM for efficient rendering.', selfRating: 60 },
+      {
+        tech: 'Figma',
+        techDec: 'Proficient in creating responsive wireframes, UI mockups, and interactive prototypes using components, auto layout, and design systems.',
+        selfRating: 80
+      },
+      {
+        tech: 'UX UI Design',
+        techDec: 'Experienced in end-to-end design process including user research, persona creation, journey mapping, wireframing, prototyping, and usability testing to create user-centric interfaces.',
+        selfRating: 90
+      }, { tech: 'HTML5', techDec: 'HTML5 introduces semantic elements, improved multimedia capabilities, and robust APIs for modern web development.', selfRating: 95 },
       { tech: 'CSS3', techDec: 'CSS3 enhances web styling with features like animations, transitions, flexbox, grid, and media queries for responsive designs.', selfRating: 95 },
       { tech: 'JavaScript', techDec: 'A core programming language for adding interactivity, animations, and dynamic content to web pages.', selfRating: 90 },
       { tech: 'Flexbox', techDec: 'A CSS layout module used to create flexible and responsive design structures.', selfRating: 92 },
@@ -27,7 +37,7 @@ const aboutUsData = [
       { tech: 'Progressive Web Apps (PWA)', techDec: 'Using HTML, CSS, and JavaScript to create web apps that offer native app-like experiences, such as offline functionality and fast loading.', selfRating: 70 },
       { tech: 'ChatGPT', techDec: 'A conversational AI platform used to integrate chatbots into user interfaces for providing real-time support and interactions in web applications.', selfRating: 75 },
       { tech: 'JSON', techDec: 'Using JavaScript Object Notation (JSON) for storing and exchanging data between the client and server in web applications.', selfRating: 85 },
-      { tech: 'React.js', techDec: 'A JavaScript library for building scalable, reusable UI components with a virtual DOM for efficient rendering.', selfRating: 60 }
+
     ],
     secondarySkills: [
       { tech: 'Motion', techDec: 'Motion is built on native browser APIs for a tiny filesize and superfast performance. It uses hardware acceleration for smooth and eco-friendly animations.' },

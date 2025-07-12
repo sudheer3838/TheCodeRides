@@ -1,3 +1,10 @@
+https://stage-frontend.whattotrust.com/
+https://www.eatdindin.com/
+https://qa.jabbrrbox.com/
+https://evolvedhumancare.io/
+https://duellthat.com/
+
+
 const Projects = [
 	{
 		companyTitle: 'Optilife AI',

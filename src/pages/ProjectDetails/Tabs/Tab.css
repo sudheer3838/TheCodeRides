@@ -37,6 +37,7 @@
   /* background: #f9f9f9; */
   border-radius: 5px;
   margin-top: 0px;
+  padding-top: 0;
 }
 
 /* Smooth Animation */
@@ -63,7 +64,8 @@
 
 .tab-content>.tab-pane {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
+  padding-top: 44px;
 }
 
 @media (min-width:768px) {
@@ -87,4 +89,17 @@
 }
 .tech-tags ul li{
   margin-bottom: 8px;
+}
+
+
+@media (min-width: 768px){
+  .nav-tabs {
+		white-space: nowrap;
+		flex-wrap: revert;
+		overflow-x: auto;
+		overflow-y: hidden;
+		position: sticky;
+		top: 0px;
+		background: #fff;
+	}
 }
